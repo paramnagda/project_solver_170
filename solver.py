@@ -1,6 +1,6 @@
 import networkx as nx
 from parse import read_input_file, write_output_file
-from utils import is_valid_solution, calculate_happiness
+from utils import *
 import sys
 from os.path import basename, normpath
 import glob
@@ -17,8 +17,12 @@ def solve(G, s, h = 0):
         D: Dictionary mapping for student to breakout room r e.g. {0:2, 1:0, 2:1, 3:2}
         k: Number of breakout rooms
     """
-    m = Model()
     numnodes = G.number_of_nodes()
+    #for maxrooms in range(1, numnodes + 1):
+
+    m = Model()
+    m.emphasis = SearchEmphasis.FEASIBILITY
+    print(m.emphasis)
     #numnodes = 4
     edgesdata = G.edges.data()
     num_edges = len(edgesdata)
@@ -42,10 +46,13 @@ def solve(G, s, h = 0):
     print("checkpoint1")
     print('model has {} vars, {} constraints and {} nzs'.format(m.num_cols, m.num_rows, m.num_nz))
     m += xsum(sameroom[i][j]*stress_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= s
+    # THE NEXT LINE IS THE LINE TO ADD CONSTRAINTS IF WE PURSUE SCRAPING
+    # m += xsum(sameroom[i][j]*happiness_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= 162.796
+
     
-    for i in range(numnodes-1):
+    for i in range(numnodes-2):
         for j in range(i+1,numnodes-1):
-            for k in range(j+1,numnodes-1):
+            for k in range(j+1,numnodes):
                 # print(i,j,k)
                 # print(i,j-i-1)
                 # print(j,k-j-1)
@@ -54,8 +61,8 @@ def solve(G, s, h = 0):
                 m += sameroom[i][j-i-1] + sameroom[i][k-i-1] <= sameroom[j][k-j-1]  + 1
                 m += sameroom[i][k-i-1] + sameroom[j][k-j-1] <= sameroom[i][j-i-1]  + 1
 
-    for i in range(numnodes):
-        m += xsum(sameroom[i][j] for j in range(numnodes - i - 1)) + xsum(sameroom[j][i-j-1] for j in range(i+1,numnodes-1))
+    # for i in range(numnodes):
+    #     m += xsum(sameroom[i][j] for j in range(numnodes - i - 1)) + xsum(sameroom[j][i-j-1] for j in range(i+1,numnodes-1))
     
     minstress = minimumstress(G)
     maxstress = maximumstress(G)
@@ -70,22 +77,41 @@ def solve(G, s, h = 0):
     print("checkpoint2")
     m.optimize()
 
+    print(m.num_solutions)
     if m.num_solutions:
         # print(y[0][0].x)
         # print(y[0][1].x)
         # print(y[1][0].x)
         # print(y[1][1].x)
         # room_to_student = []
+        # for x in range(10):
+        # print("optimum solution: ", x)
+        
         stress_sum = 0
         happiness_sum = 0
+        roomsmapping = {0:0}
+        currroom = 0
+        flag = [False for _ in range(numnodes)]
+        flag[0] = True
         for i in range(numnodes-1):
+            if not flag[i]:
+                flag[i] = True
+                currroom += 1
+                roomsmapping[i] = currroom
             for j in range(numnodes - i - 1):
                 if sameroom[i][j].x >= 0.99:
+                    flag[j+i+1] = True
                     print(i," ", j + i + 1)
+                    roomsmapping[j+i+1] = roomsmapping[i] 
                     stress_sum += stress_tri[i][j]
                     happiness_sum += happiness_tri[i][j]
+        rooms = len(set(roomsmapping.values()))
+        print("ROOMS:", rooms)
+        print("Valid:", is_valid_solution(roomsmapping, G, s, rooms))
+        print(roomsmapping)
         print(stress_sum)
         print(happiness_sum)
+        
     
     pass
 
@@ -135,6 +161,7 @@ if __name__ == '__main__':
     #nonodes = G.number_of_nodes()
     # for edge in G.edges:
         # print('identifier for', edge, ':\t', pairidentifier(edge[0], edge[1], nonodes))
+    #print(is_valid_solution({0: 0, 1: 0, 4: 0, 8: 0, 13: 0, 19: 0, 2: 1, 6: 1, 9: 1, 11: 1, 14: 1, 15: 1, 17: 1, 18: 1, 3: 2, 5: 3, 7: 4, 10: 4, 12: 4, 16: 4}, G, s, 4))
     solve(G,s)
     # numnodes = G.number_of_nodes()
     # edgesdata = G.edges.data()
