@@ -1,0 +1,37 @@
+solved in this iteration:
+inputs\small-111.in 390.63
+inputs\small-133.in 189.0
+inputs\small-142.in 110.432
+inputs\small-149.in 93.476
+inputs\small-150.in 781.0319999999999
+skipped in this iteration:
+inputs\small-101.in gave error
+inputs\small-107.in gave error
+inputs\small-108.in timed out
+inputs\small-11.in timed out
+inputs\small-110.in timed out
+inputs\small-112.in timed out
+inputs\small-113.in timed out
+inputs\small-118.in timed out
+inputs\small-119.in gave error
+inputs\small-12.in timed out
+inputs\small-122.in timed out
+inputs\small-123.in timed out
+inputs\small-124.in timed out
+inputs\small-129.in timed out
+inputs\small-130.in timed out
+inputs\small-131.in timed out
+inputs\small-136.in timed out
+inputs\small-137.in gave error
+inputs\small-143.in timed out
+inputs\small-144.in timed out
+inputs\small-146.in timed out
+inputs\small-148.in timed out
+inputs\small-154.in timed out
+inputs\small-158.in timed out
+inputs\small-159.in timed out
+inputs\small-163.in timed out
+inputs\small-164.in timed out
+inputs\small-165.in timed out
+inputs\small-166.in timed out
+inputs\small-167.in timed out
