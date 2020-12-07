@@ -160,8 +160,13 @@ def solverNotOptimal(G, s):
     else:
         print("INVALID: Could not find appropriate matching")
         return 0, 0
-        
-        
+
+def trivialSolver(G, s):
+    roomsmapping = {}
+    for student in list(G.nodes()):
+        roomsmapping[student] = student
+    rooms = len(set(roomsmapping.values()))
+    return roomsmapping, rooms        
 
 def pairidentifier(i, j, n):
     return i*n + j
@@ -213,7 +218,7 @@ def writeupdate(solved, unsolved, skippedcozexists):
         for skipped in skippedcozexists:
             fo.write(skipped + "\n")
         fo.write("**total solved in this iteration**" + str(len(solved.keys())) + "\n")
-        fo.write("**total unsolved in this iteration**" + str(len(unsolved.keys())) + "\n")   
+        fo.write("**trivially solved in this iteration**" + str(len(unsolved.keys())) + "\n")   
         fo.write("**total skipped coz exists in this iteration**" + str(len(skippedcozexists)) + "\n")
    
         fo.close()
@@ -226,7 +231,7 @@ if __name__ == '__main__':
     if (len(sys.argv) == 2):
         path = sys.argv[1]
         G, s = read_input_file(path)
-        output_path = 'naiveoutputscorrect/' + basename(normpath(path))[:-3] + '.out'
+        output_path = 'naiveoutputs3/' + basename(normpath(path))[:-3] + '.out'
         D, k = solverNotOptimal(G, s)
         if D or k:
             assert is_valid_solution(D, G, s, k)
@@ -242,7 +247,7 @@ if __name__ == '__main__':
         inputs = glob.glob('inputs/*')
         for input_path in inputs:
             if "large" in input_path or "medium" in input_path or "small" in input_path:
-                output_path = 'naiveoutputs2/' + basename(normpath(input_path))[:-3] + '.out'
+                output_path = 'naiveoutputs3/' + basename(normpath(input_path))[:-3] + '.out'
                 if os.path.isfile(output_path):
                     ctr += 1
                     print("skipping", output_path, "because it already exists")
@@ -261,19 +266,26 @@ if __name__ == '__main__':
                             write_output_file(D, output_path)
                             happinessdict[input_path] = happiness
                         else:
-                            unsolveddict[input_path] = "did not give valid solution"
+                            D, k = trivialSolver(G, s)
+                            assert is_valid_solution(D, G, s, k)
+                            write_output_file(D, output_path)
+                            unsolveddict[input_path] = "did not give valid solution so trivially solved"
                             unsolvedctr += 1
                         print("solved list", happinessdict)
                         print("unsolved list", unsolveddict)
                         writeupdate(happinessdict, unsolveddict, skippedcozexists)
                     except Exception:
-                        unsolveddict[input_path] = "gave error"
+                        D, k = trivialSolver(G, s)
+                        assert is_valid_solution(D, G, s, k)
+                        write_output_file(D, output_path)
+                        unsolveddict[input_path] = "gave error so trivially solved"
+                        unsolvedctr += 1
                         writeupdate(happinessdict, unsolveddict, skippedcozexists)
                         continue
     end = time.time()
     print("total time taken:", end - start)
     print("total solved inputs:", ctr)
-    print("total unsolved inputs:", unsolvedctr)
+    print("total unsolved so trivially solved inputs:", unsolvedctr)
     
 
 

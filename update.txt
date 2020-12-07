@@ -1,724 +1,724 @@
 **solved in this iteration:**
-inputs\large-1.in 2276.94
-inputs\large-100.in 626.5339999999998
-inputs\large-101.in 2112.132
-inputs\large-104.in 1871.685
-inputs\large-116.in 2275.5049999999997
-inputs\large-117.in 448.38800000000003
-inputs\large-119.in 245.0
-inputs\large-122.in 11.298000000000004
-inputs\large-124.in 232.06699999999998
-inputs\large-126.in 2163.0
-inputs\large-127.in 102.62700000000001
-inputs\large-129.in 120.0
-inputs\large-134.in 50.0
-inputs\large-138.in 383.0
-inputs\large-142.in 189.28400000000002
-inputs\large-143.in 2214.8239999999996
-inputs\large-144.in 236.54799999999997
-inputs\large-146.in 2260.2729999999997
-inputs\large-149.in 0.23300000000000007
-inputs\large-150.in 2252.6470000000004
-inputs\large-152.in 198.09999999999994
-inputs\large-153.in 1318.7
-inputs\large-157.in 117.0
-inputs\large-158.in 2262.0
-inputs\large-16.in 597.1720000000001
-inputs\large-160.in 235.0
-inputs\large-161.in 2012.0480000000002
-inputs\large-163.in 25.129000000000005
-inputs\large-164.in 233.46199999999996
-inputs\large-165.in 417.09700000000004
-inputs\large-168.in 9.707
-inputs\large-176.in 1631.8659999999998
-inputs\large-178.in 91.6
-inputs\large-179.in 484.8790000000001
-inputs\large-180.in 1743.9309999999998
-inputs\large-182.in 226.486
-inputs\large-186.in 425.7849999999999
-inputs\large-187.in 91.6
-inputs\large-188.in 1866.2429999999995
-inputs\large-190.in 42.751000000000005
-inputs\large-195.in 2336.032
-inputs\large-198.in 1956.1749999999997
-inputs\large-201.in 25.0
-inputs\large-21.in 2298.235999999999
-inputs\large-211.in 1743.9309999999998
-inputs\large-213.in 88.561
-inputs\large-214.in 1071.0
-inputs\large-215.in 2475.0
-inputs\large-216.in 1296.0
-inputs\large-217.in 2336.7680000000005
-inputs\large-22.in 1539.681
-inputs\large-221.in 236.0
-inputs\large-226.in 26.967000000000002
-inputs\large-227.in 22.529999999999998
-inputs\large-228.in 25.0
-inputs\large-229.in 210.02599999999998
-inputs\large-23.in 21.499999999999993
-inputs\large-232.in 42.104
-inputs\large-237.in 2295.1400000000003
-inputs\large-238.in 56.0
-inputs\large-239.in 2336.3199999999997
-inputs\large-241.in 1202.91
-inputs\large-25.in 22.303
-inputs\large-26.in 204.0
-inputs\large-27.in 239.20699999999997
-inputs\large-28.in 22.639999999999997
-inputs\large-29.in 873.593
-inputs\large-30.in 1475.323
-inputs\large-31.in 173.13899999999998
-inputs\large-32.in 40.00499999999999
-inputs\large-33.in 2344.907
-inputs\large-36.in 25.0
-inputs\large-37.in 1394.4579999999996
-inputs\large-43.in 950.36
-inputs\large-44.in 16.635000000000005
-inputs\large-48.in 557.505
-inputs\large-49.in 54.622
-inputs\large-5.in 239.0
-inputs\large-52.in 91.13499999999998
-inputs\large-53.in 91.13499999999998
-inputs\large-55.in 781.023
-inputs\large-56.in 511.58099999999996
-inputs\large-59.in 56.94500000000001
-inputs\large-60.in 59.0
-inputs\large-62.in 2343.491
-inputs\large-69.in 252.0
-inputs\large-72.in 48.0
-inputs\large-73.in 1413.237
-inputs\large-75.in 82.342
-inputs\large-76.in 50.0
-inputs\large-78.in 1033.0
-inputs\large-80.in 2325.0
-inputs\large-82.in 1336.0
-inputs\large-83.in 63.441
-inputs\large-88.in 684.1500000000004
-inputs\large-9.in 1971.0
-inputs\large-91.in 298.8720000000001
-inputs\large-92.in 20.821999999999996
-inputs\large-93.in 245.0
-inputs\large-94.in 143.0
-inputs\large-95.in 2399.7609999999995
-inputs\large-96.in 59.76900000000001
-inputs\large-98.in 1452.692
-inputs\large-99.in 200.86300000000003
-inputs\medium-1.in 873.3299999999999
-inputs\medium-101.in 770.1610000000001
-inputs\medium-102.in 83.0
-inputs\medium-103.in 783.3470000000001
-inputs\medium-104.in 584.205
-inputs\medium-116.in 967.74
-inputs\medium-117.in 130.858
-inputs\medium-119.in 89.0
-inputs\medium-124.in 88.17299999999999
-inputs\medium-126.in 922.0
-inputs\medium-127.in 49.559000000000005
-inputs\medium-13.in 43.0
-inputs\medium-132.in 370.0
-inputs\medium-133.in 251.0
-inputs\medium-134.in 50.0
-inputs\medium-138.in 265.0
-inputs\medium-140.in 903.578
-inputs\medium-142.in 125.381
-inputs\medium-144.in 90.0
-inputs\medium-148.in 94.0
-inputs\medium-149.in 33.6
-inputs\medium-150.in 815.63
-inputs\medium-153.in 522.188
-inputs\medium-154.in 76.562
-inputs\medium-158.in 903.0
-inputs\medium-16.in 90.67800000000001
-inputs\medium-160.in 92.0
-inputs\medium-161.in 823.0639999999999
-inputs\medium-162.in 242.6
-inputs\medium-163.in 13.352
-inputs\medium-165.in 145.69299999999998
-inputs\medium-168.in 25.575
-inputs\medium-17.in 419.85999999999996
-inputs\medium-173.in 76.59599999999999
-inputs\medium-176.in 643.2409999999999
-inputs\medium-178.in 45.72
-inputs\medium-179.in 44.382
-inputs\medium-180.in 933.2170000000001
-inputs\medium-182.in 86.287
-inputs\medium-185.in 83.15
-inputs\medium-186.in 156.339
-inputs\medium-187.in 45.72
-inputs\medium-188.in 897.0449999999998
-inputs\medium-190.in 17.411
-inputs\medium-193.in 97.124
-inputs\medium-198.in 660.404
-inputs\medium-199.in 146.0
-inputs\medium-201.in 10.0
-inputs\medium-209.in 5.0
-inputs\medium-21.in 890.3539999999999
-inputs\medium-211.in 933.2170000000001
-inputs\medium-213.in 52.83500000000001
-inputs\medium-214.in 399.0
-inputs\medium-216.in 494.0
-inputs\medium-217.in 189.0
-inputs\medium-218.in 78.0
-inputs\medium-22.in 736.5430000000001
-inputs\medium-220.in 749.0
-inputs\medium-221.in 92.0
-inputs\medium-223.in 714.8129999999998
-inputs\medium-224.in 786.716
-inputs\medium-227.in 7.997
-inputs\medium-228.in 239.0
-inputs\medium-229.in 82.83299999999998
-inputs\medium-231.in 11.54
-inputs\medium-232.in 43.507
-inputs\medium-234.in 51.840999999999994
-inputs\medium-235.in 10.0
-inputs\medium-238.in 41.0
-inputs\medium-239.in 891.45
-inputs\medium-241.in 813.6099999999999
-inputs\medium-242.in 88.0
-inputs\medium-25.in 36.683
-inputs\medium-26.in 531.0
-inputs\medium-27.in 88.40499999999999
-inputs\medium-28.in 658.3100000000001
-inputs\medium-29.in 407.834
-inputs\medium-30.in 588.482
-inputs\medium-31.in 106.944
-inputs\medium-32.in 40.167
-inputs\medium-33.in 897.259
-inputs\medium-36.in 63.0
-inputs\medium-37.in 537.103
-inputs\medium-43.in 291.478
-inputs\medium-45.in 637.6680000000001
-inputs\medium-47.in 697.9979999999999
-inputs\medium-48.in 136.19100000000003
-inputs\medium-49.in 21.29
-inputs\medium-5.in 92.0
-inputs\medium-52.in 838.705
-inputs\medium-53.in 838.705
-inputs\medium-55.in 332.45899999999995
-inputs\medium-56.in 199.903
-inputs\medium-57.in 58.303000000000004
-inputs\medium-62.in 859.245
-inputs\medium-68.in 872.284
-inputs\medium-71.in 47.910000000000004
-inputs\medium-72.in 20.0
-inputs\medium-75.in 22.333000000000002
-inputs\medium-76.in 20.0
-inputs\medium-77.in 715.568
-inputs\medium-78.in 358.0
-inputs\medium-8.in 860.066
-inputs\medium-82.in 529.0
-inputs\medium-83.in 55.75899999999999
-inputs\medium-88.in 406.7100000000001
-inputs\medium-9.in 789.0
-inputs\medium-91.in 104.797
-inputs\medium-92.in 8.620000000000001
-inputs\medium-95.in 863.0
-inputs\medium-96.in 23.255999999999997
-inputs\medium-98.in 586.373
-inputs\medium-99.in 68.49100000000001
-inputs\small-101.in 346.76499999999993
-inputs\small-11.in 30.548
-inputs\small-119.in 48.0
-inputs\small-12.in 43.599999999999994
-inputs\small-122.in 48.0
-inputs\small-124.in 39.014
-inputs\small-130.in 112.15
-inputs\small-142.in 52.865
-inputs\small-144.in 45.772000000000006
-inputs\small-148.in 47.0
-inputs\small-149.in 38.899
-inputs\small-154.in 43.612
-inputs\small-158.in 434.0
-inputs\small-165.in 41.0
-inputs\small-168.in 21.697
-inputs\small-17.in 116.11
-inputs\small-176.in 305.852
-inputs\small-179.in 19.762
-inputs\small-180.in 122.088
-inputs\small-182.in 33.646
-inputs\small-185.in 38.46
-inputs\small-186.in 91.492
-inputs\small-190.in 6.767
-inputs\small-192.in 333.144
-inputs\small-197.in 39.111
-inputs\small-198.in 346.40599999999995
-inputs\small-199.in 170.0
-inputs\small-208.in 41.0
-inputs\small-21.in 373.38300000000004
-inputs\small-210.in 43.0
-inputs\small-211.in 122.088
-inputs\small-212.in 253.339
-inputs\small-216.in 209.0
-inputs\small-219.in 36.0
-inputs\small-22.in 172.75099999999998
-inputs\small-224.in 302.303
-inputs\small-232.in 45.84
-inputs\small-237.in 422.866
-inputs\small-238.in 36.0
-inputs\small-239.in 423.54
-inputs\small-24.in 419.793
-inputs\small-26.in 40.0
-inputs\small-3.in 332.63599999999997
-inputs\small-30.in 291.121
-inputs\small-31.in 37.583
-inputs\small-32.in 43.160999999999994
-inputs\small-37.in 273.539
-inputs\small-41.in 421.104
-inputs\small-45.in 371.065
-inputs\small-48.in 51.0
-inputs\small-5.in 47.0
-inputs\small-50.in 41.954
-inputs\small-58.in 290.837
-inputs\small-65.in 387.0
-inputs\small-68.in 338.266
-inputs\small-70.in 63.0
-inputs\small-71.in 39.236999999999995
-inputs\small-75.in 65.0
-inputs\small-81.in 36.0
-inputs\small-83.in 54.429
-inputs\small-84.in 36.0
-inputs\small-91.in 48.008
-inputs\small-93.in 38.0
-inputs\small-95.in 337.0
-inputs\small-98.in 222.751
-inputs\small-99.in 42.91
 **skipped in this iteration:**
-inputs\large-10.in did not give valid solution
-inputs\large-102.in did not give valid solution
-inputs\large-103.in did not give valid solution
-inputs\large-105.in did not give valid solution
-inputs\large-106.in did not give valid solution
-inputs\large-107.in did not give valid solution
-inputs\large-108.in did not give valid solution
-inputs\large-109.in did not give valid solution
-inputs\large-11.in did not give valid solution
-inputs\large-110.in did not give valid solution
-inputs\large-111.in did not give valid solution
-inputs\large-112.in did not give valid solution
-inputs\large-113.in did not give valid solution
-inputs\large-114.in did not give valid solution
-inputs\large-115.in did not give valid solution
-inputs\large-118.in did not give valid solution
-inputs\large-12.in did not give valid solution
-inputs\large-120.in did not give valid solution
-inputs\large-121.in did not give valid solution
-inputs\large-123.in did not give valid solution
-inputs\large-125.in did not give valid solution
-inputs\large-128.in did not give valid solution
-inputs\large-13.in did not give valid solution
-inputs\large-130.in did not give valid solution
-inputs\large-131.in did not give valid solution
-inputs\large-132.in did not give valid solution
-inputs\large-133.in did not give valid solution
-inputs\large-136.in did not give valid solution
-inputs\large-137.in did not give valid solution
-inputs\large-139.in did not give valid solution
-inputs\large-14.in did not give valid solution
-inputs\large-140.in did not give valid solution
-inputs\large-141.in did not give valid solution
-inputs\large-145.in did not give valid solution
-inputs\large-147.in did not give valid solution
-inputs\large-148.in did not give valid solution
-inputs\large-15.in did not give valid solution
-inputs\large-151.in did not give valid solution
-inputs\large-154.in did not give valid solution
-inputs\large-155.in did not give valid solution
-inputs\large-156.in did not give valid solution
-inputs\large-159.in did not give valid solution
-inputs\large-162.in did not give valid solution
-inputs\large-166.in did not give valid solution
-inputs\large-167.in did not give valid solution
-inputs\large-169.in did not give valid solution
-inputs\large-17.in did not give valid solution
-inputs\large-170.in did not give valid solution
-inputs\large-171.in did not give valid solution
-inputs\large-172.in did not give valid solution
-inputs\large-173.in did not give valid solution
-inputs\large-174.in did not give valid solution
-inputs\large-175.in did not give valid solution
-inputs\large-177.in did not give valid solution
-inputs\large-18.in did not give valid solution
-inputs\large-181.in did not give valid solution
-inputs\large-183.in did not give valid solution
-inputs\large-184.in did not give valid solution
-inputs\large-185.in did not give valid solution
-inputs\large-189.in did not give valid solution
-inputs\large-19.in did not give valid solution
-inputs\large-191.in did not give valid solution
-inputs\large-192.in did not give valid solution
-inputs\large-193.in did not give valid solution
-inputs\large-194.in did not give valid solution
-inputs\large-196.in did not give valid solution
-inputs\large-197.in did not give valid solution
-inputs\large-199.in did not give valid solution
-inputs\large-2.in did not give valid solution
-inputs\large-20.in did not give valid solution
-inputs\large-200.in did not give valid solution
-inputs\large-202.in did not give valid solution
-inputs\large-203.in did not give valid solution
-inputs\large-204.in did not give valid solution
-inputs\large-205.in did not give valid solution
-inputs\large-206.in did not give valid solution
-inputs\large-207.in did not give valid solution
-inputs\large-209.in did not give valid solution
-inputs\large-210.in did not give valid solution
-inputs\large-212.in did not give valid solution
-inputs\large-220.in did not give valid solution
-inputs\large-222.in did not give valid solution
-inputs\large-223.in did not give valid solution
-inputs\large-225.in did not give valid solution
-inputs\large-230.in did not give valid solution
-inputs\large-231.in did not give valid solution
-inputs\large-233.in did not give valid solution
-inputs\large-234.in did not give valid solution
-inputs\large-236.in did not give valid solution
-inputs\large-24.in did not give valid solution
-inputs\large-240.in did not give valid solution
-inputs\large-242.in did not give valid solution
-inputs\large-3.in did not give valid solution
-inputs\large-34.in did not give valid solution
-inputs\large-35.in did not give valid solution
-inputs\large-38.in did not give valid solution
-inputs\large-39.in did not give valid solution
-inputs\large-4.in did not give valid solution
-inputs\large-40.in did not give valid solution
-inputs\large-41.in did not give valid solution
-inputs\large-42.in did not give valid solution
-inputs\large-45.in did not give valid solution
-inputs\large-46.in did not give valid solution
-inputs\large-47.in did not give valid solution
-inputs\large-50.in did not give valid solution
-inputs\large-51.in did not give valid solution
-inputs\large-54.in did not give valid solution
-inputs\large-57.in did not give valid solution
-inputs\large-58.in did not give valid solution
-inputs\large-6.in did not give valid solution
-inputs\large-61.in did not give valid solution
-inputs\large-63.in did not give valid solution
-inputs\large-64.in did not give valid solution
-inputs\large-65.in did not give valid solution
-inputs\large-66.in did not give valid solution
-inputs\large-67.in did not give valid solution
-inputs\large-68.in did not give valid solution
-inputs\large-7.in did not give valid solution
-inputs\large-70.in did not give valid solution
-inputs\large-71.in did not give valid solution
-inputs\large-74.in did not give valid solution
-inputs\large-77.in did not give valid solution
-inputs\large-79.in did not give valid solution
-inputs\large-8.in did not give valid solution
-inputs\large-81.in did not give valid solution
-inputs\large-84.in did not give valid solution
-inputs\large-85.in did not give valid solution
-inputs\large-86.in did not give valid solution
-inputs\large-87.in did not give valid solution
-inputs\large-89.in did not give valid solution
-inputs\large-90.in did not give valid solution
-inputs\large-97.in did not give valid solution
-inputs\medium-10.in did not give valid solution
-inputs\medium-100.in did not give valid solution
-inputs\medium-105.in did not give valid solution
-inputs\medium-106.in did not give valid solution
-inputs\medium-107.in did not give valid solution
-inputs\medium-108.in did not give valid solution
-inputs\medium-109.in did not give valid solution
-inputs\medium-11.in did not give valid solution
-inputs\medium-110.in did not give valid solution
-inputs\medium-111.in did not give valid solution
-inputs\medium-112.in did not give valid solution
-inputs\medium-113.in did not give valid solution
-inputs\medium-114.in did not give valid solution
-inputs\medium-115.in did not give valid solution
-inputs\medium-118.in did not give valid solution
-inputs\medium-12.in did not give valid solution
-inputs\medium-120.in did not give valid solution
-inputs\medium-121.in did not give valid solution
-inputs\medium-122.in did not give valid solution
-inputs\medium-123.in did not give valid solution
-inputs\medium-125.in did not give valid solution
-inputs\medium-128.in did not give valid solution
-inputs\medium-129.in did not give valid solution
-inputs\medium-130.in did not give valid solution
-inputs\medium-131.in did not give valid solution
-inputs\medium-135.in did not give valid solution
-inputs\medium-136.in did not give valid solution
-inputs\medium-137.in did not give valid solution
-inputs\medium-139.in did not give valid solution
-inputs\medium-14.in did not give valid solution
-inputs\medium-141.in did not give valid solution
-inputs\medium-143.in did not give valid solution
-inputs\medium-145.in did not give valid solution
-inputs\medium-146.in did not give valid solution
-inputs\medium-147.in did not give valid solution
-inputs\medium-15.in did not give valid solution
-inputs\medium-151.in did not give valid solution
-inputs\medium-152.in did not give valid solution
-inputs\medium-155.in did not give valid solution
-inputs\medium-156.in did not give valid solution
-inputs\medium-157.in did not give valid solution
-inputs\medium-159.in did not give valid solution
-inputs\medium-164.in did not give valid solution
-inputs\medium-166.in did not give valid solution
-inputs\medium-167.in did not give valid solution
-inputs\medium-169.in did not give valid solution
-inputs\medium-170.in did not give valid solution
-inputs\medium-171.in did not give valid solution
-inputs\medium-172.in did not give valid solution
-inputs\medium-174.in did not give valid solution
-inputs\medium-175.in did not give valid solution
-inputs\medium-177.in did not give valid solution
-inputs\medium-18.in did not give valid solution
-inputs\medium-181.in did not give valid solution
-inputs\medium-183.in did not give valid solution
-inputs\medium-184.in did not give valid solution
-inputs\medium-189.in did not give valid solution
-inputs\medium-19.in did not give valid solution
-inputs\medium-191.in did not give valid solution
-inputs\medium-192.in did not give valid solution
-inputs\medium-194.in did not give valid solution
-inputs\medium-195.in did not give valid solution
-inputs\medium-196.in did not give valid solution
-inputs\medium-197.in did not give valid solution
-inputs\medium-2.in did not give valid solution
-inputs\medium-20.in did not give valid solution
-inputs\medium-200.in did not give valid solution
-inputs\medium-202.in did not give valid solution
-inputs\medium-203.in did not give valid solution
-inputs\medium-204.in did not give valid solution
-inputs\medium-205.in did not give valid solution
-inputs\medium-206.in did not give valid solution
-inputs\medium-207.in did not give valid solution
-inputs\medium-208.in did not give valid solution
-inputs\medium-210.in did not give valid solution
-inputs\medium-212.in did not give valid solution
-inputs\medium-215.in did not give valid solution
-inputs\medium-222.in did not give valid solution
-inputs\medium-226.in did not give valid solution
-inputs\medium-23.in did not give valid solution
-inputs\medium-230.in did not give valid solution
-inputs\medium-233.in did not give valid solution
-inputs\medium-236.in did not give valid solution
-inputs\medium-237.in did not give valid solution
-inputs\medium-24.in did not give valid solution
-inputs\medium-240.in did not give valid solution
-inputs\medium-3.in did not give valid solution
-inputs\medium-34.in did not give valid solution
-inputs\medium-35.in did not give valid solution
-inputs\medium-38.in did not give valid solution
-inputs\medium-39.in did not give valid solution
-inputs\medium-4.in did not give valid solution
-inputs\medium-40.in did not give valid solution
-inputs\medium-41.in did not give valid solution
-inputs\medium-42.in did not give valid solution
-inputs\medium-44.in did not give valid solution
-inputs\medium-46.in did not give valid solution
-inputs\medium-50.in did not give valid solution
-inputs\medium-51.in did not give valid solution
-inputs\medium-54.in did not give valid solution
-inputs\medium-58.in did not give valid solution
-inputs\medium-6.in did not give valid solution
-inputs\medium-60.in did not give valid solution
-inputs\medium-61.in did not give valid solution
-inputs\medium-63.in did not give valid solution
-inputs\medium-64.in did not give valid solution
-inputs\medium-65.in did not give valid solution
-inputs\medium-66.in did not give valid solution
-inputs\medium-67.in did not give valid solution
-inputs\medium-69.in did not give valid solution
-inputs\medium-7.in did not give valid solution
-inputs\medium-70.in did not give valid solution
-inputs\medium-73.in did not give valid solution
-inputs\medium-74.in did not give valid solution
-inputs\medium-79.in did not give valid solution
-inputs\medium-80.in did not give valid solution
-inputs\medium-81.in did not give valid solution
-inputs\medium-84.in did not give valid solution
-inputs\medium-85.in did not give valid solution
-inputs\medium-86.in did not give valid solution
-inputs\medium-87.in did not give valid solution
-inputs\medium-89.in did not give valid solution
-inputs\medium-90.in did not give valid solution
-inputs\medium-93.in did not give valid solution
-inputs\medium-94.in did not give valid solution
-inputs\medium-97.in did not give valid solution
-inputs\small-100.in did not give valid solution
-inputs\small-107.in did not give valid solution
-inputs\small-108.in did not give valid solution
-inputs\small-110.in did not give valid solution
-inputs\small-112.in did not give valid solution
-inputs\small-113.in did not give valid solution
-inputs\small-118.in did not give valid solution
-inputs\small-123.in did not give valid solution
-inputs\small-129.in did not give valid solution
-inputs\small-131.in did not give valid solution
-inputs\small-136.in did not give valid solution
-inputs\small-137.in did not give valid solution
-inputs\small-143.in did not give valid solution
-inputs\small-146.in did not give valid solution
-inputs\small-159.in did not give valid solution
-inputs\small-163.in did not give valid solution
-inputs\small-164.in did not give valid solution
-inputs\small-166.in did not give valid solution
-inputs\small-167.in did not give valid solution
-inputs\small-174.in did not give valid solution
-inputs\small-175.in did not give valid solution
-inputs\small-183.in did not give valid solution
-inputs\small-189.in did not give valid solution
-inputs\small-19.in did not give valid solution
-inputs\small-194.in did not give valid solution
-inputs\small-195.in did not give valid solution
-inputs\small-196.in did not give valid solution
-inputs\small-2.in did not give valid solution
-inputs\small-204.in did not give valid solution
-inputs\small-205.in did not give valid solution
-inputs\small-207.in did not give valid solution
-inputs\small-231.in did not give valid solution
-inputs\small-234.in did not give valid solution
-inputs\small-240.in did not give valid solution
-inputs\small-241.in did not give valid solution
-inputs\small-27.in did not give valid solution
-inputs\small-4.in did not give valid solution
-inputs\small-40.in did not give valid solution
-inputs\small-46.in did not give valid solution
-inputs\small-57.in did not give valid solution
-inputs\small-60.in did not give valid solution
-inputs\small-64.in did not give valid solution
-inputs\small-79.in did not give valid solution
-inputs\small-8.in did not give valid solution
-inputs\small-85.in did not give valid solution
-inputs\small-89.in did not give valid solution
-inputs\small-90.in did not give valid solution
-inputs\small-92.in did not give valid solution
+inputs\large-10.in did not give valid solution so trivially solved
+inputs\large-102.in did not give valid solution so trivially solved
+inputs\large-103.in did not give valid solution so trivially solved
+inputs\large-105.in did not give valid solution so trivially solved
+inputs\large-106.in did not give valid solution so trivially solved
+inputs\large-107.in did not give valid solution so trivially solved
+inputs\large-108.in did not give valid solution so trivially solved
+inputs\large-109.in did not give valid solution so trivially solved
+inputs\large-11.in did not give valid solution so trivially solved
+inputs\large-110.in did not give valid solution so trivially solved
+inputs\large-111.in did not give valid solution so trivially solved
+inputs\large-112.in did not give valid solution so trivially solved
+inputs\large-113.in did not give valid solution so trivially solved
+inputs\large-114.in did not give valid solution so trivially solved
+inputs\large-115.in did not give valid solution so trivially solved
+inputs\large-118.in did not give valid solution so trivially solved
+inputs\large-12.in did not give valid solution so trivially solved
+inputs\large-120.in did not give valid solution so trivially solved
+inputs\large-121.in did not give valid solution so trivially solved
+inputs\large-123.in did not give valid solution so trivially solved
+inputs\large-125.in did not give valid solution so trivially solved
+inputs\large-128.in did not give valid solution so trivially solved
+inputs\large-13.in did not give valid solution so trivially solved
+inputs\large-130.in did not give valid solution so trivially solved
+inputs\large-131.in did not give valid solution so trivially solved
+inputs\large-132.in did not give valid solution so trivially solved
+inputs\large-133.in did not give valid solution so trivially solved
+inputs\large-136.in did not give valid solution so trivially solved
+inputs\large-137.in did not give valid solution so trivially solved
+inputs\large-139.in did not give valid solution so trivially solved
+inputs\large-14.in did not give valid solution so trivially solved
+inputs\large-140.in did not give valid solution so trivially solved
+inputs\large-141.in did not give valid solution so trivially solved
+inputs\large-145.in did not give valid solution so trivially solved
+inputs\large-147.in did not give valid solution so trivially solved
+inputs\large-148.in did not give valid solution so trivially solved
+inputs\large-15.in did not give valid solution so trivially solved
+inputs\large-151.in did not give valid solution so trivially solved
+inputs\large-154.in did not give valid solution so trivially solved
+inputs\large-155.in did not give valid solution so trivially solved
+inputs\large-156.in did not give valid solution so trivially solved
+inputs\large-159.in did not give valid solution so trivially solved
+inputs\large-162.in did not give valid solution so trivially solved
+inputs\large-166.in did not give valid solution so trivially solved
+inputs\large-167.in did not give valid solution so trivially solved
+inputs\large-169.in did not give valid solution so trivially solved
+inputs\large-17.in did not give valid solution so trivially solved
+inputs\large-170.in did not give valid solution so trivially solved
+inputs\large-171.in did not give valid solution so trivially solved
+inputs\large-172.in did not give valid solution so trivially solved
+inputs\large-173.in did not give valid solution so trivially solved
+inputs\large-174.in did not give valid solution so trivially solved
+inputs\large-175.in did not give valid solution so trivially solved
+inputs\large-177.in did not give valid solution so trivially solved
+inputs\large-18.in did not give valid solution so trivially solved
+inputs\large-181.in did not give valid solution so trivially solved
+inputs\large-183.in did not give valid solution so trivially solved
+inputs\large-184.in did not give valid solution so trivially solved
+inputs\large-185.in did not give valid solution so trivially solved
+inputs\large-189.in did not give valid solution so trivially solved
+inputs\large-19.in did not give valid solution so trivially solved
+inputs\large-191.in did not give valid solution so trivially solved
+inputs\large-192.in did not give valid solution so trivially solved
+inputs\large-193.in did not give valid solution so trivially solved
+inputs\large-194.in did not give valid solution so trivially solved
+inputs\large-196.in did not give valid solution so trivially solved
+inputs\large-197.in did not give valid solution so trivially solved
+inputs\large-199.in did not give valid solution so trivially solved
+inputs\large-2.in did not give valid solution so trivially solved
+inputs\large-20.in did not give valid solution so trivially solved
+inputs\large-200.in did not give valid solution so trivially solved
+inputs\large-202.in did not give valid solution so trivially solved
+inputs\large-203.in did not give valid solution so trivially solved
+inputs\large-204.in did not give valid solution so trivially solved
+inputs\large-205.in did not give valid solution so trivially solved
+inputs\large-206.in did not give valid solution so trivially solved
+inputs\large-207.in did not give valid solution so trivially solved
+inputs\large-209.in did not give valid solution so trivially solved
+inputs\large-210.in did not give valid solution so trivially solved
+inputs\large-212.in did not give valid solution so trivially solved
+inputs\large-220.in did not give valid solution so trivially solved
+inputs\large-222.in did not give valid solution so trivially solved
+inputs\large-223.in did not give valid solution so trivially solved
+inputs\large-225.in did not give valid solution so trivially solved
+inputs\large-230.in did not give valid solution so trivially solved
+inputs\large-231.in did not give valid solution so trivially solved
+inputs\large-233.in did not give valid solution so trivially solved
+inputs\large-234.in did not give valid solution so trivially solved
+inputs\large-236.in did not give valid solution so trivially solved
+inputs\large-24.in did not give valid solution so trivially solved
+inputs\large-240.in did not give valid solution so trivially solved
+inputs\large-242.in did not give valid solution so trivially solved
+inputs\large-3.in did not give valid solution so trivially solved
+inputs\large-34.in did not give valid solution so trivially solved
+inputs\large-35.in did not give valid solution so trivially solved
+inputs\large-38.in did not give valid solution so trivially solved
+inputs\large-39.in did not give valid solution so trivially solved
+inputs\large-4.in did not give valid solution so trivially solved
+inputs\large-40.in did not give valid solution so trivially solved
+inputs\large-41.in did not give valid solution so trivially solved
+inputs\large-42.in did not give valid solution so trivially solved
+inputs\large-45.in did not give valid solution so trivially solved
+inputs\large-46.in did not give valid solution so trivially solved
+inputs\large-47.in did not give valid solution so trivially solved
+inputs\large-50.in did not give valid solution so trivially solved
+inputs\large-51.in did not give valid solution so trivially solved
+inputs\large-54.in did not give valid solution so trivially solved
+inputs\large-57.in did not give valid solution so trivially solved
+inputs\large-58.in did not give valid solution so trivially solved
+inputs\large-6.in did not give valid solution so trivially solved
+inputs\large-61.in did not give valid solution so trivially solved
+inputs\large-63.in did not give valid solution so trivially solved
+inputs\large-64.in did not give valid solution so trivially solved
+inputs\large-65.in did not give valid solution so trivially solved
+inputs\large-66.in did not give valid solution so trivially solved
+inputs\large-67.in did not give valid solution so trivially solved
+inputs\large-68.in did not give valid solution so trivially solved
+inputs\large-7.in did not give valid solution so trivially solved
+inputs\large-70.in did not give valid solution so trivially solved
+inputs\large-71.in did not give valid solution so trivially solved
+inputs\large-74.in did not give valid solution so trivially solved
+inputs\large-77.in did not give valid solution so trivially solved
+inputs\large-79.in did not give valid solution so trivially solved
+inputs\large-8.in did not give valid solution so trivially solved
+inputs\large-81.in did not give valid solution so trivially solved
+inputs\large-84.in did not give valid solution so trivially solved
+inputs\large-85.in did not give valid solution so trivially solved
+inputs\large-86.in did not give valid solution so trivially solved
+inputs\large-87.in did not give valid solution so trivially solved
+inputs\large-89.in did not give valid solution so trivially solved
+inputs\large-90.in did not give valid solution so trivially solved
+inputs\large-97.in did not give valid solution so trivially solved
+inputs\medium-10.in did not give valid solution so trivially solved
+inputs\medium-100.in did not give valid solution so trivially solved
+inputs\medium-105.in did not give valid solution so trivially solved
+inputs\medium-106.in did not give valid solution so trivially solved
+inputs\medium-107.in did not give valid solution so trivially solved
+inputs\medium-108.in did not give valid solution so trivially solved
+inputs\medium-109.in did not give valid solution so trivially solved
+inputs\medium-11.in did not give valid solution so trivially solved
+inputs\medium-110.in did not give valid solution so trivially solved
+inputs\medium-111.in did not give valid solution so trivially solved
+inputs\medium-112.in did not give valid solution so trivially solved
+inputs\medium-113.in did not give valid solution so trivially solved
+inputs\medium-114.in did not give valid solution so trivially solved
+inputs\medium-115.in did not give valid solution so trivially solved
+inputs\medium-118.in did not give valid solution so trivially solved
+inputs\medium-12.in did not give valid solution so trivially solved
+inputs\medium-120.in did not give valid solution so trivially solved
+inputs\medium-121.in did not give valid solution so trivially solved
+inputs\medium-122.in did not give valid solution so trivially solved
+inputs\medium-123.in did not give valid solution so trivially solved
+inputs\medium-125.in did not give valid solution so trivially solved
+inputs\medium-128.in did not give valid solution so trivially solved
+inputs\medium-129.in did not give valid solution so trivially solved
+inputs\medium-130.in did not give valid solution so trivially solved
+inputs\medium-131.in did not give valid solution so trivially solved
+inputs\medium-135.in did not give valid solution so trivially solved
+inputs\medium-136.in did not give valid solution so trivially solved
+inputs\medium-137.in did not give valid solution so trivially solved
+inputs\medium-139.in did not give valid solution so trivially solved
+inputs\medium-14.in did not give valid solution so trivially solved
+inputs\medium-141.in did not give valid solution so trivially solved
+inputs\medium-143.in did not give valid solution so trivially solved
+inputs\medium-145.in did not give valid solution so trivially solved
+inputs\medium-146.in did not give valid solution so trivially solved
+inputs\medium-147.in did not give valid solution so trivially solved
+inputs\medium-15.in did not give valid solution so trivially solved
+inputs\medium-151.in did not give valid solution so trivially solved
+inputs\medium-152.in did not give valid solution so trivially solved
+inputs\medium-155.in did not give valid solution so trivially solved
+inputs\medium-156.in did not give valid solution so trivially solved
+inputs\medium-157.in did not give valid solution so trivially solved
+inputs\medium-159.in did not give valid solution so trivially solved
+inputs\medium-164.in did not give valid solution so trivially solved
+inputs\medium-166.in did not give valid solution so trivially solved
+inputs\medium-167.in did not give valid solution so trivially solved
+inputs\medium-169.in did not give valid solution so trivially solved
+inputs\medium-170.in did not give valid solution so trivially solved
+inputs\medium-171.in did not give valid solution so trivially solved
+inputs\medium-172.in did not give valid solution so trivially solved
+inputs\medium-174.in did not give valid solution so trivially solved
+inputs\medium-175.in did not give valid solution so trivially solved
+inputs\medium-177.in did not give valid solution so trivially solved
+inputs\medium-18.in did not give valid solution so trivially solved
+inputs\medium-181.in did not give valid solution so trivially solved
+inputs\medium-183.in did not give valid solution so trivially solved
+inputs\medium-184.in did not give valid solution so trivially solved
+inputs\medium-189.in did not give valid solution so trivially solved
+inputs\medium-19.in did not give valid solution so trivially solved
+inputs\medium-191.in did not give valid solution so trivially solved
+inputs\medium-192.in did not give valid solution so trivially solved
+inputs\medium-194.in did not give valid solution so trivially solved
+inputs\medium-195.in did not give valid solution so trivially solved
+inputs\medium-196.in did not give valid solution so trivially solved
+inputs\medium-197.in did not give valid solution so trivially solved
+inputs\medium-2.in did not give valid solution so trivially solved
+inputs\medium-20.in did not give valid solution so trivially solved
+inputs\medium-200.in did not give valid solution so trivially solved
+inputs\medium-202.in did not give valid solution so trivially solved
+inputs\medium-203.in did not give valid solution so trivially solved
+inputs\medium-204.in did not give valid solution so trivially solved
+inputs\medium-205.in did not give valid solution so trivially solved
+inputs\medium-206.in did not give valid solution so trivially solved
+inputs\medium-207.in did not give valid solution so trivially solved
+inputs\medium-208.in did not give valid solution so trivially solved
+inputs\medium-210.in did not give valid solution so trivially solved
+inputs\medium-212.in did not give valid solution so trivially solved
+inputs\medium-215.in did not give valid solution so trivially solved
+inputs\medium-222.in did not give valid solution so trivially solved
+inputs\medium-226.in did not give valid solution so trivially solved
+inputs\medium-23.in did not give valid solution so trivially solved
+inputs\medium-230.in did not give valid solution so trivially solved
+inputs\medium-233.in did not give valid solution so trivially solved
+inputs\medium-236.in did not give valid solution so trivially solved
+inputs\medium-237.in did not give valid solution so trivially solved
+inputs\medium-24.in did not give valid solution so trivially solved
+inputs\medium-240.in did not give valid solution so trivially solved
+inputs\medium-3.in did not give valid solution so trivially solved
+inputs\medium-34.in did not give valid solution so trivially solved
+inputs\medium-35.in did not give valid solution so trivially solved
+inputs\medium-38.in did not give valid solution so trivially solved
+inputs\medium-39.in did not give valid solution so trivially solved
+inputs\medium-4.in did not give valid solution so trivially solved
+inputs\medium-40.in did not give valid solution so trivially solved
+inputs\medium-41.in did not give valid solution so trivially solved
+inputs\medium-42.in did not give valid solution so trivially solved
+inputs\medium-44.in did not give valid solution so trivially solved
+inputs\medium-46.in did not give valid solution so trivially solved
+inputs\medium-50.in did not give valid solution so trivially solved
+inputs\medium-51.in did not give valid solution so trivially solved
+inputs\medium-54.in did not give valid solution so trivially solved
+inputs\medium-58.in did not give valid solution so trivially solved
+inputs\medium-6.in did not give valid solution so trivially solved
+inputs\medium-60.in did not give valid solution so trivially solved
+inputs\medium-61.in did not give valid solution so trivially solved
+inputs\medium-63.in did not give valid solution so trivially solved
+inputs\medium-64.in did not give valid solution so trivially solved
+inputs\medium-65.in did not give valid solution so trivially solved
+inputs\medium-66.in did not give valid solution so trivially solved
+inputs\medium-67.in did not give valid solution so trivially solved
+inputs\medium-69.in did not give valid solution so trivially solved
+inputs\medium-7.in did not give valid solution so trivially solved
+inputs\medium-70.in did not give valid solution so trivially solved
+inputs\medium-73.in did not give valid solution so trivially solved
+inputs\medium-74.in did not give valid solution so trivially solved
+inputs\medium-79.in did not give valid solution so trivially solved
+inputs\medium-80.in did not give valid solution so trivially solved
+inputs\medium-81.in did not give valid solution so trivially solved
+inputs\medium-84.in did not give valid solution so trivially solved
+inputs\medium-85.in did not give valid solution so trivially solved
+inputs\medium-86.in did not give valid solution so trivially solved
+inputs\medium-87.in did not give valid solution so trivially solved
+inputs\medium-89.in did not give valid solution so trivially solved
+inputs\medium-90.in did not give valid solution so trivially solved
+inputs\medium-93.in did not give valid solution so trivially solved
+inputs\medium-94.in did not give valid solution so trivially solved
+inputs\medium-97.in did not give valid solution so trivially solved
+inputs\small-100.in did not give valid solution so trivially solved
+inputs\small-107.in did not give valid solution so trivially solved
+inputs\small-108.in did not give valid solution so trivially solved
+inputs\small-110.in did not give valid solution so trivially solved
+inputs\small-112.in did not give valid solution so trivially solved
+inputs\small-113.in did not give valid solution so trivially solved
+inputs\small-118.in did not give valid solution so trivially solved
+inputs\small-123.in did not give valid solution so trivially solved
+inputs\small-129.in did not give valid solution so trivially solved
+inputs\small-131.in did not give valid solution so trivially solved
+inputs\small-136.in did not give valid solution so trivially solved
+inputs\small-137.in did not give valid solution so trivially solved
+inputs\small-143.in did not give valid solution so trivially solved
+inputs\small-146.in did not give valid solution so trivially solved
+inputs\small-159.in did not give valid solution so trivially solved
+inputs\small-163.in did not give valid solution so trivially solved
+inputs\small-164.in did not give valid solution so trivially solved
+inputs\small-166.in did not give valid solution so trivially solved
+inputs\small-167.in did not give valid solution so trivially solved
+inputs\small-174.in did not give valid solution so trivially solved
+inputs\small-175.in did not give valid solution so trivially solved
+inputs\small-183.in did not give valid solution so trivially solved
+inputs\small-189.in did not give valid solution so trivially solved
+inputs\small-19.in did not give valid solution so trivially solved
+inputs\small-194.in did not give valid solution so trivially solved
+inputs\small-195.in did not give valid solution so trivially solved
+inputs\small-196.in did not give valid solution so trivially solved
+inputs\small-2.in did not give valid solution so trivially solved
+inputs\small-204.in did not give valid solution so trivially solved
+inputs\small-205.in did not give valid solution so trivially solved
+inputs\small-207.in did not give valid solution so trivially solved
+inputs\small-231.in did not give valid solution so trivially solved
+inputs\small-234.in did not give valid solution so trivially solved
+inputs\small-240.in did not give valid solution so trivially solved
+inputs\small-241.in did not give valid solution so trivially solved
+inputs\small-27.in did not give valid solution so trivially solved
+inputs\small-4.in did not give valid solution so trivially solved
+inputs\small-40.in did not give valid solution so trivially solved
+inputs\small-46.in did not give valid solution so trivially solved
+inputs\small-57.in did not give valid solution so trivially solved
+inputs\small-60.in did not give valid solution so trivially solved
+inputs\small-64.in did not give valid solution so trivially solved
+inputs\small-79.in did not give valid solution so trivially solved
+inputs\small-8.in did not give valid solution so trivially solved
+inputs\small-85.in did not give valid solution so trivially solved
+inputs\small-89.in did not give valid solution so trivially solved
+inputs\small-90.in did not give valid solution so trivially solved
+inputs\small-92.in did not give valid solution so trivially solved
 **skipped coz exists:**
-naiveoutputs2/medium-59.out
-naiveoutputs2/small-1.out
-naiveoutputs2/small-10.out
-naiveoutputs2/small-102.out
-naiveoutputs2/small-103.out
-naiveoutputs2/small-104.out
-naiveoutputs2/small-105.out
-naiveoutputs2/small-106.out
-naiveoutputs2/small-109.out
-naiveoutputs2/small-111.out
-naiveoutputs2/small-114.out
-naiveoutputs2/small-115.out
-naiveoutputs2/small-116.out
-naiveoutputs2/small-117.out
-naiveoutputs2/small-120.out
-naiveoutputs2/small-121.out
-naiveoutputs2/small-125.out
-naiveoutputs2/small-126.out
-naiveoutputs2/small-127.out
-naiveoutputs2/small-128.out
-naiveoutputs2/small-13.out
-naiveoutputs2/small-132.out
-naiveoutputs2/small-133.out
-naiveoutputs2/small-134.out
-naiveoutputs2/small-135.out
-naiveoutputs2/small-138.out
-naiveoutputs2/small-139.out
-naiveoutputs2/small-14.out
-naiveoutputs2/small-140.out
-naiveoutputs2/small-141.out
-naiveoutputs2/small-145.out
-naiveoutputs2/small-147.out
-naiveoutputs2/small-15.out
-naiveoutputs2/small-150.out
-naiveoutputs2/small-151.out
-naiveoutputs2/small-152.out
-naiveoutputs2/small-153.out
-naiveoutputs2/small-155.out
-naiveoutputs2/small-156.out
-naiveoutputs2/small-157.out
-naiveoutputs2/small-16.out
-naiveoutputs2/small-160.out
-naiveoutputs2/small-161.out
-naiveoutputs2/small-162.out
-naiveoutputs2/small-169.out
-naiveoutputs2/small-170.out
-naiveoutputs2/small-171.out
-naiveoutputs2/small-172.out
-naiveoutputs2/small-173.out
-naiveoutputs2/small-177.out
-naiveoutputs2/small-178.out
-naiveoutputs2/small-18.out
-naiveoutputs2/small-181.out
-naiveoutputs2/small-184.out
-naiveoutputs2/small-187.out
-naiveoutputs2/small-188.out
-naiveoutputs2/small-191.out
-naiveoutputs2/small-193.out
-naiveoutputs2/small-20.out
-naiveoutputs2/small-200.out
-naiveoutputs2/small-201.out
-naiveoutputs2/small-202.out
-naiveoutputs2/small-203.out
-naiveoutputs2/small-206.out
-naiveoutputs2/small-209.out
-naiveoutputs2/small-213.out
-naiveoutputs2/small-214.out
-naiveoutputs2/small-215.out
-naiveoutputs2/small-217.out
-naiveoutputs2/small-218.out
-naiveoutputs2/small-220.out
-naiveoutputs2/small-221.out
-naiveoutputs2/small-222.out
-naiveoutputs2/small-223.out
-naiveoutputs2/small-225.out
-naiveoutputs2/small-226.out
-naiveoutputs2/small-227.out
-naiveoutputs2/small-228.out
-naiveoutputs2/small-229.out
-naiveoutputs2/small-23.out
-naiveoutputs2/small-230.out
-naiveoutputs2/small-233.out
-naiveoutputs2/small-235.out
-naiveoutputs2/small-236.out
-naiveoutputs2/small-242.out
-naiveoutputs2/small-25.out
-naiveoutputs2/small-28.out
-naiveoutputs2/small-29.out
-naiveoutputs2/small-33.out
-naiveoutputs2/small-34.out
-naiveoutputs2/small-35.out
-naiveoutputs2/small-36.out
-naiveoutputs2/small-38.out
-naiveoutputs2/small-39.out
-naiveoutputs2/small-42.out
-naiveoutputs2/small-43.out
-naiveoutputs2/small-44.out
-naiveoutputs2/small-47.out
-naiveoutputs2/small-49.out
-naiveoutputs2/small-51.out
-naiveoutputs2/small-52.out
-naiveoutputs2/small-53.out
-naiveoutputs2/small-54.out
-naiveoutputs2/small-55.out
-naiveoutputs2/small-56.out
-naiveoutputs2/small-59.out
-naiveoutputs2/small-6.out
-naiveoutputs2/small-61.out
-naiveoutputs2/small-62.out
-naiveoutputs2/small-63.out
-naiveoutputs2/small-66.out
-naiveoutputs2/small-67.out
-naiveoutputs2/small-69.out
-naiveoutputs2/small-7.out
-naiveoutputs2/small-72.out
-naiveoutputs2/small-73.out
-naiveoutputs2/small-74.out
-naiveoutputs2/small-76.out
-naiveoutputs2/small-77.out
-naiveoutputs2/small-78.out
-naiveoutputs2/small-80.out
-naiveoutputs2/small-82.out
-naiveoutputs2/small-86.out
-naiveoutputs2/small-87.out
-naiveoutputs2/small-88.out
-naiveoutputs2/small-9.out
-naiveoutputs2/small-94.out
-naiveoutputs2/small-96.out
-naiveoutputs2/small-97.out
-**total solved in this iteration**283
-**total unsolved in this iteration**306
-**total skipped coz exists in this iteration**129
+naiveoutputs3/large-1.out
+naiveoutputs3/large-100.out
+naiveoutputs3/large-101.out
+naiveoutputs3/large-104.out
+naiveoutputs3/large-116.out
+naiveoutputs3/large-117.out
+naiveoutputs3/large-119.out
+naiveoutputs3/large-122.out
+naiveoutputs3/large-124.out
+naiveoutputs3/large-126.out
+naiveoutputs3/large-127.out
+naiveoutputs3/large-129.out
+naiveoutputs3/large-134.out
+naiveoutputs3/large-138.out
+naiveoutputs3/large-142.out
+naiveoutputs3/large-143.out
+naiveoutputs3/large-144.out
+naiveoutputs3/large-146.out
+naiveoutputs3/large-149.out
+naiveoutputs3/large-150.out
+naiveoutputs3/large-152.out
+naiveoutputs3/large-153.out
+naiveoutputs3/large-157.out
+naiveoutputs3/large-158.out
+naiveoutputs3/large-16.out
+naiveoutputs3/large-160.out
+naiveoutputs3/large-161.out
+naiveoutputs3/large-163.out
+naiveoutputs3/large-164.out
+naiveoutputs3/large-165.out
+naiveoutputs3/large-168.out
+naiveoutputs3/large-176.out
+naiveoutputs3/large-178.out
+naiveoutputs3/large-179.out
+naiveoutputs3/large-180.out
+naiveoutputs3/large-182.out
+naiveoutputs3/large-186.out
+naiveoutputs3/large-187.out
+naiveoutputs3/large-188.out
+naiveoutputs3/large-190.out
+naiveoutputs3/large-195.out
+naiveoutputs3/large-198.out
+naiveoutputs3/large-201.out
+naiveoutputs3/large-21.out
+naiveoutputs3/large-211.out
+naiveoutputs3/large-213.out
+naiveoutputs3/large-214.out
+naiveoutputs3/large-215.out
+naiveoutputs3/large-216.out
+naiveoutputs3/large-217.out
+naiveoutputs3/large-22.out
+naiveoutputs3/large-221.out
+naiveoutputs3/large-226.out
+naiveoutputs3/large-227.out
+naiveoutputs3/large-228.out
+naiveoutputs3/large-229.out
+naiveoutputs3/large-23.out
+naiveoutputs3/large-232.out
+naiveoutputs3/large-237.out
+naiveoutputs3/large-238.out
+naiveoutputs3/large-239.out
+naiveoutputs3/large-241.out
+naiveoutputs3/large-25.out
+naiveoutputs3/large-26.out
+naiveoutputs3/large-27.out
+naiveoutputs3/large-28.out
+naiveoutputs3/large-29.out
+naiveoutputs3/large-30.out
+naiveoutputs3/large-31.out
+naiveoutputs3/large-32.out
+naiveoutputs3/large-33.out
+naiveoutputs3/large-36.out
+naiveoutputs3/large-37.out
+naiveoutputs3/large-43.out
+naiveoutputs3/large-44.out
+naiveoutputs3/large-48.out
+naiveoutputs3/large-49.out
+naiveoutputs3/large-5.out
+naiveoutputs3/large-52.out
+naiveoutputs3/large-53.out
+naiveoutputs3/large-55.out
+naiveoutputs3/large-56.out
+naiveoutputs3/large-59.out
+naiveoutputs3/large-60.out
+naiveoutputs3/large-62.out
+naiveoutputs3/large-69.out
+naiveoutputs3/large-72.out
+naiveoutputs3/large-73.out
+naiveoutputs3/large-75.out
+naiveoutputs3/large-76.out
+naiveoutputs3/large-78.out
+naiveoutputs3/large-80.out
+naiveoutputs3/large-82.out
+naiveoutputs3/large-83.out
+naiveoutputs3/large-88.out
+naiveoutputs3/large-9.out
+naiveoutputs3/large-91.out
+naiveoutputs3/large-92.out
+naiveoutputs3/large-93.out
+naiveoutputs3/large-94.out
+naiveoutputs3/large-95.out
+naiveoutputs3/large-96.out
+naiveoutputs3/large-98.out
+naiveoutputs3/large-99.out
+naiveoutputs3/medium-1.out
+naiveoutputs3/medium-101.out
+naiveoutputs3/medium-102.out
+naiveoutputs3/medium-103.out
+naiveoutputs3/medium-104.out
+naiveoutputs3/medium-116.out
+naiveoutputs3/medium-117.out
+naiveoutputs3/medium-119.out
+naiveoutputs3/medium-124.out
+naiveoutputs3/medium-126.out
+naiveoutputs3/medium-127.out
+naiveoutputs3/medium-13.out
+naiveoutputs3/medium-132.out
+naiveoutputs3/medium-133.out
+naiveoutputs3/medium-134.out
+naiveoutputs3/medium-138.out
+naiveoutputs3/medium-140.out
+naiveoutputs3/medium-142.out
+naiveoutputs3/medium-144.out
+naiveoutputs3/medium-148.out
+naiveoutputs3/medium-149.out
+naiveoutputs3/medium-150.out
+naiveoutputs3/medium-153.out
+naiveoutputs3/medium-154.out
+naiveoutputs3/medium-158.out
+naiveoutputs3/medium-16.out
+naiveoutputs3/medium-160.out
+naiveoutputs3/medium-161.out
+naiveoutputs3/medium-162.out
+naiveoutputs3/medium-163.out
+naiveoutputs3/medium-165.out
+naiveoutputs3/medium-168.out
+naiveoutputs3/medium-17.out
+naiveoutputs3/medium-173.out
+naiveoutputs3/medium-176.out
+naiveoutputs3/medium-178.out
+naiveoutputs3/medium-179.out
+naiveoutputs3/medium-180.out
+naiveoutputs3/medium-182.out
+naiveoutputs3/medium-185.out
+naiveoutputs3/medium-186.out
+naiveoutputs3/medium-187.out
+naiveoutputs3/medium-188.out
+naiveoutputs3/medium-190.out
+naiveoutputs3/medium-193.out
+naiveoutputs3/medium-198.out
+naiveoutputs3/medium-199.out
+naiveoutputs3/medium-201.out
+naiveoutputs3/medium-209.out
+naiveoutputs3/medium-21.out
+naiveoutputs3/medium-211.out
+naiveoutputs3/medium-213.out
+naiveoutputs3/medium-214.out
+naiveoutputs3/medium-216.out
+naiveoutputs3/medium-217.out
+naiveoutputs3/medium-218.out
+naiveoutputs3/medium-22.out
+naiveoutputs3/medium-220.out
+naiveoutputs3/medium-221.out
+naiveoutputs3/medium-223.out
+naiveoutputs3/medium-224.out
+naiveoutputs3/medium-227.out
+naiveoutputs3/medium-228.out
+naiveoutputs3/medium-229.out
+naiveoutputs3/medium-231.out
+naiveoutputs3/medium-232.out
+naiveoutputs3/medium-234.out
+naiveoutputs3/medium-235.out
+naiveoutputs3/medium-238.out
+naiveoutputs3/medium-239.out
+naiveoutputs3/medium-241.out
+naiveoutputs3/medium-242.out
+naiveoutputs3/medium-25.out
+naiveoutputs3/medium-26.out
+naiveoutputs3/medium-27.out
+naiveoutputs3/medium-28.out
+naiveoutputs3/medium-29.out
+naiveoutputs3/medium-30.out
+naiveoutputs3/medium-31.out
+naiveoutputs3/medium-32.out
+naiveoutputs3/medium-33.out
+naiveoutputs3/medium-36.out
+naiveoutputs3/medium-37.out
+naiveoutputs3/medium-43.out
+naiveoutputs3/medium-45.out
+naiveoutputs3/medium-47.out
+naiveoutputs3/medium-48.out
+naiveoutputs3/medium-49.out
+naiveoutputs3/medium-5.out
+naiveoutputs3/medium-52.out
+naiveoutputs3/medium-53.out
+naiveoutputs3/medium-55.out
+naiveoutputs3/medium-56.out
+naiveoutputs3/medium-57.out
+naiveoutputs3/medium-59.out
+naiveoutputs3/medium-62.out
+naiveoutputs3/medium-68.out
+naiveoutputs3/medium-71.out
+naiveoutputs3/medium-72.out
+naiveoutputs3/medium-75.out
+naiveoutputs3/medium-76.out
+naiveoutputs3/medium-77.out
+naiveoutputs3/medium-78.out
+naiveoutputs3/medium-8.out
+naiveoutputs3/medium-82.out
+naiveoutputs3/medium-83.out
+naiveoutputs3/medium-88.out
+naiveoutputs3/medium-9.out
+naiveoutputs3/medium-91.out
+naiveoutputs3/medium-92.out
+naiveoutputs3/medium-95.out
+naiveoutputs3/medium-96.out
+naiveoutputs3/medium-98.out
+naiveoutputs3/medium-99.out
+naiveoutputs3/small-1.out
+naiveoutputs3/small-10.out
+naiveoutputs3/small-101.out
+naiveoutputs3/small-102.out
+naiveoutputs3/small-103.out
+naiveoutputs3/small-104.out
+naiveoutputs3/small-105.out
+naiveoutputs3/small-106.out
+naiveoutputs3/small-109.out
+naiveoutputs3/small-11.out
+naiveoutputs3/small-111.out
+naiveoutputs3/small-114.out
+naiveoutputs3/small-115.out
+naiveoutputs3/small-116.out
+naiveoutputs3/small-117.out
+naiveoutputs3/small-119.out
+naiveoutputs3/small-12.out
+naiveoutputs3/small-120.out
+naiveoutputs3/small-121.out
+naiveoutputs3/small-122.out
+naiveoutputs3/small-124.out
+naiveoutputs3/small-125.out
+naiveoutputs3/small-126.out
+naiveoutputs3/small-127.out
+naiveoutputs3/small-128.out
+naiveoutputs3/small-13.out
+naiveoutputs3/small-130.out
+naiveoutputs3/small-132.out
+naiveoutputs3/small-133.out
+naiveoutputs3/small-134.out
+naiveoutputs3/small-135.out
+naiveoutputs3/small-138.out
+naiveoutputs3/small-139.out
+naiveoutputs3/small-14.out
+naiveoutputs3/small-140.out
+naiveoutputs3/small-141.out
+naiveoutputs3/small-142.out
+naiveoutputs3/small-144.out
+naiveoutputs3/small-145.out
+naiveoutputs3/small-147.out
+naiveoutputs3/small-148.out
+naiveoutputs3/small-149.out
+naiveoutputs3/small-15.out
+naiveoutputs3/small-150.out
+naiveoutputs3/small-151.out
+naiveoutputs3/small-152.out
+naiveoutputs3/small-153.out
+naiveoutputs3/small-154.out
+naiveoutputs3/small-155.out
+naiveoutputs3/small-156.out
+naiveoutputs3/small-157.out
+naiveoutputs3/small-158.out
+naiveoutputs3/small-16.out
+naiveoutputs3/small-160.out
+naiveoutputs3/small-161.out
+naiveoutputs3/small-162.out
+naiveoutputs3/small-165.out
+naiveoutputs3/small-168.out
+naiveoutputs3/small-169.out
+naiveoutputs3/small-17.out
+naiveoutputs3/small-170.out
+naiveoutputs3/small-171.out
+naiveoutputs3/small-172.out
+naiveoutputs3/small-173.out
+naiveoutputs3/small-176.out
+naiveoutputs3/small-177.out
+naiveoutputs3/small-178.out
+naiveoutputs3/small-179.out
+naiveoutputs3/small-18.out
+naiveoutputs3/small-180.out
+naiveoutputs3/small-181.out
+naiveoutputs3/small-182.out
+naiveoutputs3/small-184.out
+naiveoutputs3/small-185.out
+naiveoutputs3/small-186.out
+naiveoutputs3/small-187.out
+naiveoutputs3/small-188.out
+naiveoutputs3/small-190.out
+naiveoutputs3/small-191.out
+naiveoutputs3/small-192.out
+naiveoutputs3/small-193.out
+naiveoutputs3/small-197.out
+naiveoutputs3/small-198.out
+naiveoutputs3/small-199.out
+naiveoutputs3/small-20.out
+naiveoutputs3/small-200.out
+naiveoutputs3/small-201.out
+naiveoutputs3/small-202.out
+naiveoutputs3/small-203.out
+naiveoutputs3/small-206.out
+naiveoutputs3/small-208.out
+naiveoutputs3/small-209.out
+naiveoutputs3/small-21.out
+naiveoutputs3/small-210.out
+naiveoutputs3/small-211.out
+naiveoutputs3/small-212.out
+naiveoutputs3/small-213.out
+naiveoutputs3/small-214.out
+naiveoutputs3/small-215.out
+naiveoutputs3/small-216.out
+naiveoutputs3/small-217.out
+naiveoutputs3/small-218.out
+naiveoutputs3/small-219.out
+naiveoutputs3/small-22.out
+naiveoutputs3/small-220.out
+naiveoutputs3/small-221.out
+naiveoutputs3/small-222.out
+naiveoutputs3/small-223.out
+naiveoutputs3/small-224.out
+naiveoutputs3/small-225.out
+naiveoutputs3/small-226.out
+naiveoutputs3/small-227.out
+naiveoutputs3/small-228.out
+naiveoutputs3/small-229.out
+naiveoutputs3/small-23.out
+naiveoutputs3/small-230.out
+naiveoutputs3/small-232.out
+naiveoutputs3/small-233.out
+naiveoutputs3/small-235.out
+naiveoutputs3/small-236.out
+naiveoutputs3/small-237.out
+naiveoutputs3/small-238.out
+naiveoutputs3/small-239.out
+naiveoutputs3/small-24.out
+naiveoutputs3/small-242.out
+naiveoutputs3/small-25.out
+naiveoutputs3/small-26.out
+naiveoutputs3/small-28.out
+naiveoutputs3/small-29.out
+naiveoutputs3/small-3.out
+naiveoutputs3/small-30.out
+naiveoutputs3/small-31.out
+naiveoutputs3/small-32.out
+naiveoutputs3/small-33.out
+naiveoutputs3/small-34.out
+naiveoutputs3/small-35.out
+naiveoutputs3/small-36.out
+naiveoutputs3/small-37.out
+naiveoutputs3/small-38.out
+naiveoutputs3/small-39.out
+naiveoutputs3/small-41.out
+naiveoutputs3/small-42.out
+naiveoutputs3/small-43.out
+naiveoutputs3/small-44.out
+naiveoutputs3/small-45.out
+naiveoutputs3/small-47.out
+naiveoutputs3/small-48.out
+naiveoutputs3/small-49.out
+naiveoutputs3/small-5.out
+naiveoutputs3/small-50.out
+naiveoutputs3/small-51.out
+naiveoutputs3/small-52.out
+naiveoutputs3/small-53.out
+naiveoutputs3/small-54.out
+naiveoutputs3/small-55.out
+naiveoutputs3/small-56.out
+naiveoutputs3/small-58.out
+naiveoutputs3/small-59.out
+naiveoutputs3/small-6.out
+naiveoutputs3/small-61.out
+naiveoutputs3/small-62.out
+naiveoutputs3/small-63.out
+naiveoutputs3/small-65.out
+naiveoutputs3/small-66.out
+naiveoutputs3/small-67.out
+naiveoutputs3/small-68.out
+naiveoutputs3/small-69.out
+naiveoutputs3/small-7.out
+naiveoutputs3/small-70.out
+naiveoutputs3/small-71.out
+naiveoutputs3/small-72.out
+naiveoutputs3/small-73.out
+naiveoutputs3/small-74.out
+naiveoutputs3/small-75.out
+naiveoutputs3/small-76.out
+naiveoutputs3/small-77.out
+naiveoutputs3/small-78.out
+naiveoutputs3/small-80.out
+naiveoutputs3/small-81.out
+naiveoutputs3/small-82.out
+naiveoutputs3/small-83.out
+naiveoutputs3/small-84.out
+naiveoutputs3/small-86.out
+naiveoutputs3/small-87.out
+naiveoutputs3/small-88.out
+naiveoutputs3/small-9.out
+naiveoutputs3/small-91.out
+naiveoutputs3/small-93.out
+naiveoutputs3/small-94.out
+naiveoutputs3/small-95.out
+naiveoutputs3/small-96.out
+naiveoutputs3/small-97.out
+naiveoutputs3/small-98.out
+naiveoutputs3/small-99.out
+**total solved in this iteration**0
+**trivially solved in this iteration**306
+**total skipped coz exists in this iteration**412
