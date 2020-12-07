@@ -26,7 +26,7 @@ def solve(G, s, h = 0):
     happiness_sum = float('inf') 
     #for maxrooms in range(1, numnodes + 1):
     ctr = 0
-    while (not valid and ctr < 50):
+    while (not valid and ctr < 10):
         ctr += 1
         m = Model()
         m.emphasis = SearchEmphasis.FEASIBILITY
@@ -46,15 +46,16 @@ def solve(G, s, h = 0):
         print(sum([len(i) for i in happiness_tri]))
         #print(sum([len(i) for i in sameroom]))
         if(h > 0):
-            m += xsum(sameroom[i][j]*happiness_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) >= h
+            m += xsum(sameroom[i][j]*happiness_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= h
         else:
             m.objective = maximize(xsum(sameroom[i][j]*happiness_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)))
             #m.objective = maximize(xsum(c[i][j]*y[i][j] for i in range(2) for j in range(2)))
         print("checkpoint1")
         print('model has {} vars, {} constraints and {} nzs'.format(m.num_cols, m.num_rows, m.num_nz))
         m += xsum(sameroom[i][j]*stress_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= s
-        m += xsum(sameroom[i][j]*happiness_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= happiness_sum - happiness_sum * 0.001
-        # m += xsum(sameroom[i][j]*happiness_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= <INSERT VALUE TO SCRAPE HERE>  
+        m += xsum(sameroom[i][j]*stress_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) >= stress_sum
+        #m += xsum(sameroom[i][j]*happiness_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= happiness_sum - happiness_sum * 0.001
+        m += xsum(sameroom[i][j]*happiness_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= 72
         
         for i in range(numnodes-2):
             for j in range(i+1,numnodes-1):
@@ -67,19 +68,23 @@ def solve(G, s, h = 0):
                     m += sameroom[i][j-i-1] + sameroom[i][k-i-1] <= sameroom[j][k-j-1]  + 1
                     m += sameroom[i][k-i-1] + sameroom[j][k-j-1] <= sameroom[i][j-i-1]  + 1
 
-        for i in range(numnodes):
-            m += xsum(sameroom[i][j] for j in range(numnodes - i - 1)) + xsum(sameroom[j][i-j-1] for j in range(i-1)) >= 1
-        
         minstress = minimumstress(G)
         maxstress = maximumstress(G)
         minpair = numpairs(G.number_of_nodes(), s, minstress[2]['stress'])
         maxpair = numpairs(G.number_of_nodes(), s, maxstress[2]['stress'])
-        min_p = room_student_stress_bound(G.number_of_nodes(),minpair[1],minpair[0],minstress)
-        print(min_p)
-        max_p = room_student_stress_bound(G.number_of_nodes(),maxpair[1],maxpair[0],maxstress)
-        print(max_p)
-        m += xsum(sameroom[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= min_p
-        m += xsum(sameroom[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) >= max_p
+
+        for i in range(numnodes):
+            m += xsum(sameroom[i][j] for j in range(numnodes - i - 1)) + xsum(sameroom[j][i-j-1] for j in range(i-1)) >= 1
+            #m += xsum(sameroom[i][j] for j in range(numnodes - i - 1)) + xsum(sameroom[j][i-j-1] for j in range(i-1)) <= minpair[1]
+            #m += xsum(sameroom[i][j] * stress_tri[i][j]  for j in range(numnodes - i - 1)) + xsum(sameroom[j][i-j-1] * stress_tri[j][i - j - 1] for j in range(i-1)) <= s/minpair[0]
+
+        
+        # min_p = room_student_stress_bound(G.number_of_nodes(),minpair[1],minpair[0],minstress)
+        # print(min_p)
+        # max_p = room_student_stress_bound(G.number_of_nodes(),maxpair[1],maxpair[0],maxstress)
+        # print(max_p)
+        # m += xsum(sameroom[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= min_p
+        # m += xsum(sameroom[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) >= max_p
         print("checkpoint2")
         m.optimize()
         ctr += 1
@@ -93,10 +98,11 @@ def solve(G, s, h = 0):
             # for x in range(10):
             # print("optimum solution: ", x)
             
-            stress_sum = 0
+            
             happiness_sum = 0
             roomsmapping = {0:0}
             currroom = 0
+            stress_sum = 0
             flag = [False for _ in range(numnodes)]
             flag[0] = True
             for i in range(numnodes):
@@ -132,35 +138,53 @@ def solve(G, s, h = 0):
 def solverNotOptimal(G, s):
     numnodes = G.number_of_nodes()
     valid = False
-    sperroom = s/2
-    pendingstudents = list(G.nodes())
-    curroom = 0
-    roomsmapping = {}
-    while pendingstudents:
-        student = pendingstudents[0]
-        roomsmapping[student] = curroom
-        curroom += 1
-        pendingstudents.remove(student)
-        print(student)
-        print(pendingstudents)
-        potentialpartners = [partner for partner in pendingstudents if G[student][partner]["stress"] <= sperroom]
-        if potentialpartners:
-            partner = max(potentialpartners, key = lambda x: G[student][x]["happiness"])
-            roomsmapping[partner] = roomsmapping[student]
-            pendingstudents.remove(partner)
-    rooms = len(set(roomsmapping.values()))
-    valid = is_valid_solution(roomsmapping, G, s, rooms)
-    print("ROOMS:", rooms)
-    print("budget: ", s)
-    print("Valid:", valid)
-    print(roomsmapping)
-    if valid:
-        print("VALIDDDDD")
-        return roomsmapping, rooms
-    else:
-        print("INVALID: Could not find appropriate matching")
-        return 0, 0
+    minstress = minimumstress(G)[2]['stress']
+    maxstress = maximumstress(G)[2]['stress']
+    avgstress = sum([x[2]['stress'] for x in G.edges.data()])/len(G.edges.data())
+    minpair = numpairs(G.number_of_nodes(), s, minstress)
+    maxpair = numpairs(G.number_of_nodes(), s, maxstress)
+    print(maxpair)
+    print(minpair)
+    for k in range (minpair[0],maxpair[0]):
+        sperroom = s/k
+        pendingstudents = list(G.nodes())
+        curroom = 0
+        roomsmapping = {}
+        print(sperroom)
+        while pendingstudents and curroom < k:
+            student = pendingstudents[0]
+            roomsmapping[student] = curroom
+            curroom += 1
+            pendingstudents.remove(student)
+            print(student)
+            #print(pendingstudents)
+            potentialpartners = [partner for partner in pendingstudents if G[student][partner]["stress"] <= sperroom]
+            sinthisroom = 0
+            while (len(potentialpartners)):
+                partner = max(potentialpartners, key = lambda x: G[student][x]["happiness"] - (100 if expectedstressinroom(student,x,roomsmapping,G) > sperroom else 0))
+                sinthisroom +=  expectedstressinroom(student,partner,roomsmapping,G)
+                if (sinthisroom > sperroom):
+                    break
+                roomsmapping[partner] = roomsmapping[student]
+                pendingstudents.remove(partner)
+                potentialpartners = [partner for partner in pendingstudents if G[student][partner]["stress"] <= sperroom - sinthisroom]
+                print(sinthisroom)       
+        rooms = len(set(roomsmapping.values()))
+        valid = is_valid_solution(roomsmapping, G, s, rooms)
+        print("ROOMS:", rooms)
+        print("budget: ", s)
+        print("Valid:", valid)
+        print(roomsmapping)
+        if valid:
+            print("VALIDDDDD")
+            return roomsmapping, rooms
+        else:
+            print("INVALID: Could not find appropriate matching")
+            #return 0, 0
 
+
+def expectedstressinroom(student, partner, roomsmapping, G):
+    return sum([G[x][partner]["stress"] for x in roomsmapping if roomsmapping[x] == roomsmapping[student]]) + sum([G[partner][x]["stress"] for x in roomsmapping if roomsmapping[x] == roomsmapping[student]])
 def trivialSolver(G, s):
     roomsmapping = {}
     for student in list(G.nodes()):
@@ -231,8 +255,9 @@ if __name__ == '__main__':
     if (len(sys.argv) == 2):
         path = sys.argv[1]
         G, s = read_input_file(path)
-        output_path = 'naiveoutputs3/' + basename(normpath(path))[:-3] + '.out'
-        D, k = solverNotOptimal(G, s)
+        output_path = 'amogh2/' + basename(normpath(path))[:-3] + '.out'
+        
+        D, k = solve(G,s)
         if D or k:
             assert is_valid_solution(D, G, s, k)
             happiness = calculate_happiness(D, G)
@@ -246,8 +271,8 @@ if __name__ == '__main__':
         skippedcozexists = []
         inputs = glob.glob('inputs/*')
         for input_path in inputs:
-            if "large" in input_path or "medium" in input_path or "small" in input_path:
-                output_path = 'naiveoutputs3/' + basename(normpath(input_path))[:-3] + '.out'
+            if "small" in input_path:
+                output_path = 'amogh2/' + basename(normpath(input_path))[:-3] + '.out'
                 if os.path.isfile(output_path):
                     ctr += 1
                     print("skipping", output_path, "because it already exists")
@@ -258,7 +283,7 @@ if __name__ == '__main__':
                     print("now attempting", input_path)
                     G, s = read_input_file(input_path)
                     try:
-                        D, k = solverNotOptimal(G, s)
+                        D, k = solve(G, s)
                         if D or k:
                             assert is_valid_solution(D, G, s, k)
                             ctr += 1
@@ -266,9 +291,9 @@ if __name__ == '__main__':
                             write_output_file(D, output_path)
                             happinessdict[input_path] = happiness
                         else:
-                            D, k = trivialSolver(G, s)
-                            assert is_valid_solution(D, G, s, k)
-                            write_output_file(D, output_path)
+                            #D, k = trivialSolver(G, s)
+                            #assert is_valid_solution(D, G, s, k)
+                            #write_output_file(D, output_path)
                             unsolveddict[input_path] = "did not give valid solution so trivially solved"
                             unsolvedctr += 1
                         print("solved list", happinessdict)
