@@ -1,37 +1,242 @@
-solved in this iteration:
-inputs\small-111.in 390.63
-inputs\small-133.in 189.0
-inputs\small-142.in 110.432
-inputs\small-149.in 93.476
-inputs\small-150.in 781.0319999999999
-skipped in this iteration:
-inputs\small-101.in gave error
-inputs\small-107.in gave error
-inputs\small-108.in timed out
-inputs\small-11.in timed out
-inputs\small-110.in timed out
-inputs\small-112.in timed out
-inputs\small-113.in timed out
-inputs\small-118.in timed out
-inputs\small-119.in gave error
-inputs\small-12.in timed out
-inputs\small-122.in timed out
-inputs\small-123.in timed out
-inputs\small-124.in timed out
-inputs\small-129.in timed out
-inputs\small-130.in timed out
-inputs\small-131.in timed out
-inputs\small-136.in timed out
-inputs\small-137.in gave error
-inputs\small-143.in timed out
-inputs\small-144.in timed out
-inputs\small-146.in timed out
-inputs\small-148.in timed out
-inputs\small-154.in timed out
-inputs\small-158.in timed out
-inputs\small-159.in timed out
-inputs\small-163.in timed out
-inputs\small-164.in timed out
-inputs\small-165.in timed out
-inputs\small-166.in timed out
-inputs\small-167.in timed out
+**solved in this iteration:**
+inputs\large-1.in 1639.8999999999996
+inputs\large-10.in 1593.9
+inputs\large-100.in 458.11
+inputs\large-101.in 1466.364
+inputs\large-103.in 1555.193
+inputs\large-104.in 1438.4840000000002
+inputs\large-105.in 291.0
+inputs\large-112.in 1100.5099999999998
+inputs\large-116.in 1641.6589999999999
+inputs\large-117.in 319.96700000000004
+inputs\large-119.in 169.0
+inputs\large-120.in 1324.348
+inputs\large-121.in 1591.0
+inputs\large-122.in 7.736
+inputs\large-124.in 169.314
+inputs\large-126.in 1465.0
+inputs\large-127.in 73.83399999999999
+inputs\large-129.in 85.0
+inputs\large-13.in 119.0
+inputs\large-133.in 336.0
+inputs\large-134.in 34.0
+inputs\large-138.in 289.0
+inputs\large-14.in 1699.9830000000002
+inputs\large-140.in 1500.7289999999998
+inputs\large-142.in 136.71799999999996
+inputs\large-143.in 1622.012
+inputs\large-144.in 166.183
+inputs\large-146.in 1647.059
+inputs\large-149.in 0.169
+inputs\large-150.in 1668.953
+inputs\large-152.in 145.19999999999996
+inputs\large-153.in 918.5570000000001
+inputs\large-154.in 252.87
+inputs\large-157.in 85.0
+inputs\large-158.in 1643.0
+inputs\large-16.in 414.0160000000001
+inputs\large-160.in 166.0
+inputs\large-161.in 1604.2130000000002
+inputs\large-162.in 418.74999999999994
+inputs\large-163.in 18.15
+inputs\large-164.in 165.49200000000002
+inputs\large-165.in 309.55299999999994
+inputs\large-167.in 596.441
+inputs\large-168.in 7.301999999999999
+inputs\large-176.in 1191.397
+inputs\large-178.in 87.01999999999998
+inputs\large-179.in 332.867
+inputs\large-18.in 1573.944
+inputs\large-180.in 1188.5569999999998
+inputs\large-181.in 166.76400000000004
+inputs\large-182.in 165.313
+inputs\large-186.in 314.182
+inputs\large-187.in 87.01999999999998
+inputs\large-188.in 1330.0209999999997
+inputs\large-189.in 1653.54
+inputs\large-190.in 30.862999999999996
+inputs\large-191.in 1152.998
+inputs\large-195.in 1630.8179999999995
+inputs\large-198.in 1347.115
+inputs\large-199.in 340.0
+inputs\large-2.in 90.09999999999998
+inputs\large-201.in 17.0
+inputs\large-202.in 974.0
+inputs\large-205.in 1634.0
+inputs\large-209.in 79.66300000000001
+inputs\large-21.in 1613.5940000000005
+inputs\large-211.in 1188.5569999999998
+inputs\large-212.in 1499.2559999999996
+inputs\large-213.in 66.418
+inputs\large-214.in 768.0
+inputs\large-215.in 1683.0
+inputs\large-216.in 919.0
+inputs\large-217.in 1640.0240000000003
+inputs\large-22.in 1136.892
+inputs\large-220.in 1462.0
+inputs\large-221.in 169.0
+inputs\large-223.in 1471.023
+inputs\large-226.in 19.735000000000003
+inputs\large-227.in 16.227
+inputs\large-228.in 17.0
+inputs\large-229.in 153.972
+inputs\large-23.in 15.600000000000003
+inputs\large-232.in 35.225
+inputs\large-234.in 98.783
+inputs\large-237.in 1642.4550000000002
+inputs\large-238.in 44.0
+inputs\large-239.in 1644.1000000000001
+inputs\large-241.in 859.4290000000002
+inputs\large-25.in 16.918
+inputs\large-26.in 146.0
+inputs\large-27.in 166.64199999999997
+inputs\large-28.in 16.290000000000003
+inputs\large-29.in 1120.1599999999999
+inputs\large-30.in 1013.728
+inputs\large-31.in 123.84300000000003
+inputs\large-32.in 29.869
+inputs\large-33.in 1649.333
+inputs\large-36.in 17.0
+inputs\large-37.in 955.567
+inputs\large-40.in 39.4
+inputs\large-43.in 664.105
+inputs\large-44.in 12.172000000000002
+inputs\large-48.in 379.846
+inputs\large-49.in 40.618
+inputs\large-5.in 169.0
+inputs\large-52.in 65.45
+inputs\large-53.in 65.45
+inputs\large-55.in 557.9659999999999
+inputs\large-56.in 464.05299999999994
+inputs\large-59.in 40.147
+inputs\large-6.in 1325.377
+inputs\large-60.in 46.0
+inputs\large-62.in 1633.26
+inputs\large-64.in 85.0
+inputs\large-69.in 176.0
+inputs\large-70.in 309.0
+inputs\large-71.in 57.79199999999999
+inputs\large-72.in 33.0
+inputs\large-73.in 1007.202
+inputs\large-75.in 58.49199999999999
+inputs\large-76.in 34.0
+inputs\large-77.in 1378.643
+inputs\large-78.in 709.0
+inputs\large-80.in 1654.0
+inputs\large-82.in 918.0
+inputs\large-83.in 46.608
+inputs\large-88.in 824.5200000000002
+inputs\large-9.in 1503.0
+inputs\large-91.in 211.80200000000002
+inputs\large-92.in 14.062999999999999
+inputs\large-93.in 169.0
+inputs\large-94.in 121.0
+inputs\large-95.in 1599.841
+inputs\large-96.in 41.745
+inputs\large-98.in 1033.1879999999999
+inputs\large-99.in 151.98299999999998
+**skipped in this iteration:**
+inputs\large-102.in did not give valid solution
+inputs\large-106.in did not give valid solution
+inputs\large-107.in did not give valid solution
+inputs\large-108.in did not give valid solution
+inputs\large-109.in did not give valid solution
+inputs\large-11.in did not give valid solution
+inputs\large-110.in did not give valid solution
+inputs\large-111.in did not give valid solution
+inputs\large-113.in did not give valid solution
+inputs\large-114.in did not give valid solution
+inputs\large-115.in did not give valid solution
+inputs\large-118.in did not give valid solution
+inputs\large-12.in did not give valid solution
+inputs\large-123.in did not give valid solution
+inputs\large-125.in did not give valid solution
+inputs\large-128.in did not give valid solution
+inputs\large-130.in did not give valid solution
+inputs\large-131.in did not give valid solution
+inputs\large-132.in did not give valid solution
+inputs\large-136.in did not give valid solution
+inputs\large-137.in did not give valid solution
+inputs\large-139.in did not give valid solution
+inputs\large-141.in did not give valid solution
+inputs\large-145.in did not give valid solution
+inputs\large-147.in did not give valid solution
+inputs\large-148.in did not give valid solution
+inputs\large-15.in did not give valid solution
+inputs\large-151.in did not give valid solution
+inputs\large-155.in did not give valid solution
+inputs\large-156.in did not give valid solution
+inputs\large-159.in did not give valid solution
+inputs\large-166.in did not give valid solution
+inputs\large-169.in did not give valid solution
+inputs\large-17.in did not give valid solution
+inputs\large-170.in did not give valid solution
+inputs\large-171.in did not give valid solution
+inputs\large-172.in did not give valid solution
+inputs\large-173.in did not give valid solution
+inputs\large-174.in did not give valid solution
+inputs\large-175.in did not give valid solution
+inputs\large-177.in did not give valid solution
+inputs\large-183.in did not give valid solution
+inputs\large-184.in did not give valid solution
+inputs\large-185.in did not give valid solution
+inputs\large-19.in did not give valid solution
+inputs\large-192.in did not give valid solution
+inputs\large-193.in did not give valid solution
+inputs\large-194.in did not give valid solution
+inputs\large-196.in did not give valid solution
+inputs\large-197.in did not give valid solution
+inputs\large-20.in did not give valid solution
+inputs\large-200.in did not give valid solution
+inputs\large-203.in did not give valid solution
+inputs\large-204.in did not give valid solution
+inputs\large-206.in did not give valid solution
+inputs\large-207.in did not give valid solution
+inputs\large-210.in did not give valid solution
+inputs\large-222.in did not give valid solution
+inputs\large-225.in did not give valid solution
+inputs\large-230.in did not give valid solution
+inputs\large-231.in did not give valid solution
+inputs\large-233.in did not give valid solution
+inputs\large-236.in did not give valid solution
+inputs\large-24.in did not give valid solution
+inputs\large-240.in did not give valid solution
+inputs\large-242.in did not give valid solution
+inputs\large-3.in did not give valid solution
+inputs\large-34.in did not give valid solution
+inputs\large-35.in did not give valid solution
+inputs\large-38.in did not give valid solution
+inputs\large-39.in did not give valid solution
+inputs\large-4.in did not give valid solution
+inputs\large-41.in did not give valid solution
+inputs\large-42.in did not give valid solution
+inputs\large-45.in did not give valid solution
+inputs\large-46.in did not give valid solution
+inputs\large-47.in did not give valid solution
+inputs\large-50.in did not give valid solution
+inputs\large-51.in did not give valid solution
+inputs\large-54.in did not give valid solution
+inputs\large-57.in did not give valid solution
+inputs\large-58.in did not give valid solution
+inputs\large-61.in did not give valid solution
+inputs\large-63.in did not give valid solution
+inputs\large-65.in did not give valid solution
+inputs\large-66.in did not give valid solution
+inputs\large-67.in did not give valid solution
+inputs\large-68.in did not give valid solution
+inputs\large-7.in did not give valid solution
+inputs\large-74.in did not give valid solution
+inputs\large-79.in did not give valid solution
+inputs\large-8.in did not give valid solution
+inputs\large-81.in did not give valid solution
+inputs\large-84.in did not give valid solution
+inputs\large-85.in did not give valid solution
+inputs\large-86.in did not give valid solution
+inputs\large-87.in did not give valid solution
+inputs\large-89.in did not give valid solution
+inputs\large-90.in did not give valid solution
+inputs\large-97.in did not give valid solution
+**skipped coz exists:**
+**total solved in this iteration**136
+**total unsolved in this iteration**100
+**total skipped coz exists in this iteration**0
