@@ -136,7 +136,8 @@ def solverNotOptimal(G, s):
     pendingstudents = list(G.nodes())
     curroom = 0
     roomsmapping = {}
-    for student in pendingstudents:
+    while pendingstudents:
+        student = pendingstudents[0]
         roomsmapping[student] = curroom
         curroom += 1
         pendingstudents.remove(student)
@@ -220,10 +221,12 @@ def writeupdate(solved, unsolved, skippedcozexists):
 
 if __name__ == '__main__':
     start = time.time()
+    ctr = 0
+    unsolvedctr = 0
     if (len(sys.argv) == 2):
         path = sys.argv[1]
         G, s = read_input_file(path)
-        output_path = 'naiveoutputs/' + basename(normpath(path))[:-3] + '.out'
+        output_path = 'naiveoutputscorrect/' + basename(normpath(path))[:-3] + '.out'
         D, k = solverNotOptimal(G, s)
         if D or k:
             assert is_valid_solution(D, G, s, k)
@@ -237,11 +240,9 @@ if __name__ == '__main__':
         happinessdict = {}
         skippedcozexists = []
         inputs = glob.glob('inputs/*')
-        ctr = 0
-        unsolvedctr = 0
         for input_path in inputs:
             if "large" in input_path or "medium" in input_path or "small" in input_path:
-                output_path = 'naiveoutputs/' + basename(normpath(input_path))[:-3] + '.out'
+                output_path = 'naiveoutputscorrect/' + basename(normpath(input_path))[:-3] + '.out'
                 if os.path.isfile(output_path):
                     ctr += 1
                     print("skipping", output_path, "because it already exists")

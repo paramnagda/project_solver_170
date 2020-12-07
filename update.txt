@@ -1,6 +1,292 @@
 **solved in this iteration:**
+inputs\large-1.in 2276.94
+inputs\large-100.in 626.5339999999998
+inputs\large-101.in 2112.132
+inputs\large-104.in 1871.685
+inputs\large-116.in 2275.5049999999997
+inputs\large-117.in 448.38800000000003
+inputs\large-119.in 245.0
+inputs\large-122.in 11.298000000000004
+inputs\large-124.in 232.06699999999998
+inputs\large-126.in 2163.0
+inputs\large-127.in 102.62700000000001
+inputs\large-129.in 120.0
+inputs\large-134.in 50.0
+inputs\large-138.in 383.0
+inputs\large-142.in 189.28400000000002
+inputs\large-143.in 2214.8239999999996
+inputs\large-144.in 236.54799999999997
+inputs\large-146.in 2260.2729999999997
+inputs\large-149.in 0.23300000000000007
+inputs\large-150.in 2252.6470000000004
+inputs\large-152.in 198.09999999999994
+inputs\large-153.in 1318.7
+inputs\large-157.in 117.0
+inputs\large-158.in 2262.0
+inputs\large-16.in 597.1720000000001
+inputs\large-160.in 235.0
+inputs\large-161.in 2012.0480000000002
+inputs\large-163.in 25.129000000000005
+inputs\large-164.in 233.46199999999996
+inputs\large-165.in 417.09700000000004
+inputs\large-168.in 9.707
+inputs\large-176.in 1631.8659999999998
+inputs\large-178.in 91.6
+inputs\large-179.in 484.8790000000001
+inputs\large-180.in 1743.9309999999998
+inputs\large-182.in 226.486
+inputs\large-186.in 425.7849999999999
+inputs\large-187.in 91.6
+inputs\large-188.in 1866.2429999999995
+inputs\large-190.in 42.751000000000005
+inputs\large-195.in 2336.032
+inputs\large-198.in 1956.1749999999997
+inputs\large-201.in 25.0
+inputs\large-21.in 2298.235999999999
+inputs\large-211.in 1743.9309999999998
+inputs\large-213.in 88.561
+inputs\large-214.in 1071.0
+inputs\large-215.in 2475.0
+inputs\large-216.in 1296.0
+inputs\large-217.in 2336.7680000000005
+inputs\large-22.in 1539.681
+inputs\large-221.in 236.0
+inputs\large-226.in 26.967000000000002
+inputs\large-227.in 22.529999999999998
+inputs\large-228.in 25.0
+inputs\large-229.in 210.02599999999998
+inputs\large-23.in 21.499999999999993
+inputs\large-232.in 42.104
+inputs\large-237.in 2295.1400000000003
+inputs\large-238.in 56.0
+inputs\large-239.in 2336.3199999999997
+inputs\large-241.in 1202.91
+inputs\large-25.in 22.303
+inputs\large-26.in 204.0
+inputs\large-27.in 239.20699999999997
+inputs\large-28.in 22.639999999999997
+inputs\large-29.in 873.593
+inputs\large-30.in 1475.323
+inputs\large-31.in 173.13899999999998
+inputs\large-32.in 40.00499999999999
+inputs\large-33.in 2344.907
+inputs\large-36.in 25.0
+inputs\large-37.in 1394.4579999999996
+inputs\large-43.in 950.36
+inputs\large-44.in 16.635000000000005
+inputs\large-48.in 557.505
+inputs\large-49.in 54.622
+inputs\large-5.in 239.0
+inputs\large-52.in 91.13499999999998
+inputs\large-53.in 91.13499999999998
+inputs\large-55.in 781.023
+inputs\large-56.in 511.58099999999996
+inputs\large-59.in 56.94500000000001
+inputs\large-60.in 59.0
+inputs\large-62.in 2343.491
+inputs\large-69.in 252.0
+inputs\large-72.in 48.0
+inputs\large-73.in 1413.237
+inputs\large-75.in 82.342
+inputs\large-76.in 50.0
+inputs\large-78.in 1033.0
+inputs\large-80.in 2325.0
+inputs\large-82.in 1336.0
+inputs\large-83.in 63.441
+inputs\large-88.in 684.1500000000004
+inputs\large-9.in 1971.0
+inputs\large-91.in 298.8720000000001
+inputs\large-92.in 20.821999999999996
+inputs\large-93.in 245.0
+inputs\large-94.in 143.0
+inputs\large-95.in 2399.7609999999995
+inputs\large-96.in 59.76900000000001
+inputs\large-98.in 1452.692
+inputs\large-99.in 200.86300000000003
+inputs\medium-1.in 873.3299999999999
+inputs\medium-101.in 770.1610000000001
+inputs\medium-102.in 83.0
+inputs\medium-103.in 783.3470000000001
+inputs\medium-104.in 584.205
+inputs\medium-116.in 967.74
+inputs\medium-117.in 130.858
+inputs\medium-119.in 89.0
+inputs\medium-124.in 88.17299999999999
+inputs\medium-126.in 922.0
+inputs\medium-127.in 49.559000000000005
+inputs\medium-13.in 43.0
+inputs\medium-132.in 370.0
+inputs\medium-133.in 251.0
+inputs\medium-134.in 50.0
+inputs\medium-138.in 265.0
+inputs\medium-140.in 903.578
+inputs\medium-142.in 125.381
+inputs\medium-144.in 90.0
+inputs\medium-148.in 94.0
+inputs\medium-149.in 33.6
+inputs\medium-150.in 815.63
+inputs\medium-153.in 522.188
+inputs\medium-154.in 76.562
+inputs\medium-158.in 903.0
+inputs\medium-16.in 90.67800000000001
+inputs\medium-160.in 92.0
+inputs\medium-161.in 823.0639999999999
+inputs\medium-162.in 242.6
+inputs\medium-163.in 13.352
+inputs\medium-165.in 145.69299999999998
+inputs\medium-168.in 25.575
+inputs\medium-17.in 419.85999999999996
+inputs\medium-173.in 76.59599999999999
+inputs\medium-176.in 643.2409999999999
+inputs\medium-178.in 45.72
+inputs\medium-179.in 44.382
+inputs\medium-180.in 933.2170000000001
+inputs\medium-182.in 86.287
+inputs\medium-185.in 83.15
+inputs\medium-186.in 156.339
+inputs\medium-187.in 45.72
+inputs\medium-188.in 897.0449999999998
+inputs\medium-190.in 17.411
+inputs\medium-193.in 97.124
+inputs\medium-198.in 660.404
+inputs\medium-199.in 146.0
+inputs\medium-201.in 10.0
+inputs\medium-209.in 5.0
+inputs\medium-21.in 890.3539999999999
+inputs\medium-211.in 933.2170000000001
+inputs\medium-213.in 52.83500000000001
+inputs\medium-214.in 399.0
+inputs\medium-216.in 494.0
+inputs\medium-217.in 189.0
+inputs\medium-218.in 78.0
+inputs\medium-22.in 736.5430000000001
+inputs\medium-220.in 749.0
+inputs\medium-221.in 92.0
+inputs\medium-223.in 714.8129999999998
+inputs\medium-224.in 786.716
+inputs\medium-227.in 7.997
+inputs\medium-228.in 239.0
+inputs\medium-229.in 82.83299999999998
+inputs\medium-231.in 11.54
+inputs\medium-232.in 43.507
+inputs\medium-234.in 51.840999999999994
+inputs\medium-235.in 10.0
+inputs\medium-238.in 41.0
+inputs\medium-239.in 891.45
+inputs\medium-241.in 813.6099999999999
+inputs\medium-242.in 88.0
+inputs\medium-25.in 36.683
+inputs\medium-26.in 531.0
+inputs\medium-27.in 88.40499999999999
+inputs\medium-28.in 658.3100000000001
+inputs\medium-29.in 407.834
+inputs\medium-30.in 588.482
+inputs\medium-31.in 106.944
+inputs\medium-32.in 40.167
+inputs\medium-33.in 897.259
+inputs\medium-36.in 63.0
+inputs\medium-37.in 537.103
+inputs\medium-43.in 291.478
+inputs\medium-45.in 637.6680000000001
+inputs\medium-47.in 697.9979999999999
+inputs\medium-48.in 136.19100000000003
+inputs\medium-49.in 21.29
+inputs\medium-5.in 92.0
+inputs\medium-52.in 838.705
+inputs\medium-53.in 838.705
+inputs\medium-55.in 332.45899999999995
+inputs\medium-56.in 199.903
+inputs\medium-57.in 58.303000000000004
+inputs\medium-62.in 859.245
+inputs\medium-68.in 872.284
+inputs\medium-71.in 47.910000000000004
+inputs\medium-72.in 20.0
+inputs\medium-75.in 22.333000000000002
+inputs\medium-76.in 20.0
+inputs\medium-77.in 715.568
+inputs\medium-78.in 358.0
+inputs\medium-8.in 860.066
+inputs\medium-82.in 529.0
+inputs\medium-83.in 55.75899999999999
+inputs\medium-88.in 406.7100000000001
+inputs\medium-9.in 789.0
+inputs\medium-91.in 104.797
+inputs\medium-92.in 8.620000000000001
+inputs\medium-95.in 863.0
+inputs\medium-96.in 23.255999999999997
+inputs\medium-98.in 586.373
+inputs\medium-99.in 68.49100000000001
+inputs\small-101.in 346.76499999999993
+inputs\small-11.in 30.548
+inputs\small-119.in 48.0
+inputs\small-12.in 43.599999999999994
+inputs\small-122.in 48.0
+inputs\small-124.in 39.014
+inputs\small-130.in 112.15
+inputs\small-142.in 52.865
+inputs\small-144.in 45.772000000000006
+inputs\small-148.in 47.0
+inputs\small-149.in 38.899
+inputs\small-154.in 43.612
+inputs\small-158.in 434.0
+inputs\small-165.in 41.0
+inputs\small-168.in 21.697
+inputs\small-17.in 116.11
+inputs\small-176.in 305.852
+inputs\small-179.in 19.762
+inputs\small-180.in 122.088
+inputs\small-182.in 33.646
+inputs\small-185.in 38.46
+inputs\small-186.in 91.492
+inputs\small-190.in 6.767
+inputs\small-192.in 333.144
+inputs\small-197.in 39.111
+inputs\small-198.in 346.40599999999995
+inputs\small-199.in 170.0
+inputs\small-208.in 41.0
+inputs\small-21.in 373.38300000000004
+inputs\small-210.in 43.0
+inputs\small-211.in 122.088
+inputs\small-212.in 253.339
+inputs\small-216.in 209.0
+inputs\small-219.in 36.0
+inputs\small-22.in 172.75099999999998
+inputs\small-224.in 302.303
+inputs\small-232.in 45.84
+inputs\small-237.in 422.866
+inputs\small-238.in 36.0
+inputs\small-239.in 423.54
+inputs\small-24.in 419.793
+inputs\small-26.in 40.0
+inputs\small-3.in 332.63599999999997
+inputs\small-30.in 291.121
+inputs\small-31.in 37.583
+inputs\small-32.in 43.160999999999994
+inputs\small-37.in 273.539
+inputs\small-41.in 421.104
+inputs\small-45.in 371.065
+inputs\small-48.in 51.0
+inputs\small-5.in 47.0
+inputs\small-50.in 41.954
+inputs\small-58.in 290.837
+inputs\small-65.in 387.0
+inputs\small-68.in 338.266
+inputs\small-70.in 63.0
+inputs\small-71.in 39.236999999999995
+inputs\small-75.in 65.0
+inputs\small-81.in 36.0
+inputs\small-83.in 54.429
+inputs\small-84.in 36.0
+inputs\small-91.in 48.008
+inputs\small-93.in 38.0
+inputs\small-95.in 337.0
+inputs\small-98.in 222.751
+inputs\small-99.in 42.91
 **skipped in this iteration:**
+inputs\large-10.in did not give valid solution
 inputs\large-102.in did not give valid solution
+inputs\large-103.in did not give valid solution
+inputs\large-105.in did not give valid solution
 inputs\large-106.in did not give valid solution
 inputs\large-107.in did not give valid solution
 inputs\large-108.in did not give valid solution
@@ -8,30 +294,40 @@ inputs\large-109.in did not give valid solution
 inputs\large-11.in did not give valid solution
 inputs\large-110.in did not give valid solution
 inputs\large-111.in did not give valid solution
+inputs\large-112.in did not give valid solution
 inputs\large-113.in did not give valid solution
 inputs\large-114.in did not give valid solution
 inputs\large-115.in did not give valid solution
 inputs\large-118.in did not give valid solution
 inputs\large-12.in did not give valid solution
+inputs\large-120.in did not give valid solution
+inputs\large-121.in did not give valid solution
 inputs\large-123.in did not give valid solution
 inputs\large-125.in did not give valid solution
 inputs\large-128.in did not give valid solution
+inputs\large-13.in did not give valid solution
 inputs\large-130.in did not give valid solution
 inputs\large-131.in did not give valid solution
 inputs\large-132.in did not give valid solution
+inputs\large-133.in did not give valid solution
 inputs\large-136.in did not give valid solution
 inputs\large-137.in did not give valid solution
 inputs\large-139.in did not give valid solution
+inputs\large-14.in did not give valid solution
+inputs\large-140.in did not give valid solution
 inputs\large-141.in did not give valid solution
 inputs\large-145.in did not give valid solution
 inputs\large-147.in did not give valid solution
 inputs\large-148.in did not give valid solution
 inputs\large-15.in did not give valid solution
 inputs\large-151.in did not give valid solution
+inputs\large-154.in did not give valid solution
 inputs\large-155.in did not give valid solution
 inputs\large-156.in did not give valid solution
 inputs\large-159.in did not give valid solution
+inputs\large-162.in did not give valid solution
 inputs\large-166.in did not give valid solution
+inputs\large-167.in did not give valid solution
 inputs\large-169.in did not give valid solution
 inputs\large-17.in did not give valid solution
 inputs\large-170.in did not give valid solution
@@ -41,27 +337,40 @@ inputs\large-173.in did not give valid solution
 inputs\large-174.in did not give valid solution
 inputs\large-175.in did not give valid solution
 inputs\large-177.in did not give valid solution
+inputs\large-18.in did not give valid solution
+inputs\large-181.in did not give valid solution
 inputs\large-183.in did not give valid solution
 inputs\large-184.in did not give valid solution
 inputs\large-185.in did not give valid solution
+inputs\large-189.in did not give valid solution
 inputs\large-19.in did not give valid solution
+inputs\large-191.in did not give valid solution
 inputs\large-192.in did not give valid solution
 inputs\large-193.in did not give valid solution
 inputs\large-194.in did not give valid solution
 inputs\large-196.in did not give valid solution
 inputs\large-197.in did not give valid solution
+inputs\large-199.in did not give valid solution
+inputs\large-2.in did not give valid solution
 inputs\large-20.in did not give valid solution
 inputs\large-200.in did not give valid solution
+inputs\large-202.in did not give valid solution
 inputs\large-203.in did not give valid solution
 inputs\large-204.in did not give valid solution
+inputs\large-205.in did not give valid solution
 inputs\large-206.in did not give valid solution
 inputs\large-207.in did not give valid solution
+inputs\large-209.in did not give valid solution
 inputs\large-210.in did not give valid solution
+inputs\large-212.in did not give valid solution
+inputs\large-220.in did not give valid solution
 inputs\large-222.in did not give valid solution
+inputs\large-223.in did not give valid solution
 inputs\large-225.in did not give valid solution
 inputs\large-230.in did not give valid solution
 inputs\large-231.in did not give valid solution
 inputs\large-233.in did not give valid solution
+inputs\large-234.in did not give valid solution
 inputs\large-236.in did not give valid solution
 inputs\large-24.in did not give valid solution
 inputs\large-240.in did not give valid solution
@@ -72,6 +381,7 @@ inputs\large-35.in did not give valid solution
 inputs\large-38.in did not give valid solution
 inputs\large-39.in did not give valid solution
 inputs\large-4.in did not give valid solution
+inputs\large-40.in did not give valid solution
 inputs\large-41.in did not give valid solution
 inputs\large-42.in did not give valid solution
 inputs\large-45.in did not give valid solution
@@ -82,14 +392,19 @@ inputs\large-51.in did not give valid solution
 inputs\large-54.in did not give valid solution
 inputs\large-57.in did not give valid solution
 inputs\large-58.in did not give valid solution
+inputs\large-6.in did not give valid solution
 inputs\large-61.in did not give valid solution
 inputs\large-63.in did not give valid solution
+inputs\large-64.in did not give valid solution
 inputs\large-65.in did not give valid solution
 inputs\large-66.in did not give valid solution
 inputs\large-67.in did not give valid solution
 inputs\large-68.in did not give valid solution
 inputs\large-7.in did not give valid solution
+inputs\large-70.in did not give valid solution
+inputs\large-71.in did not give valid solution
 inputs\large-74.in did not give valid solution
+inputs\large-77.in did not give valid solution
 inputs\large-79.in did not give valid solution
 inputs\large-8.in did not give valid solution
 inputs\large-81.in did not give valid solution
@@ -100,53 +415,80 @@ inputs\large-87.in did not give valid solution
 inputs\large-89.in did not give valid solution
 inputs\large-90.in did not give valid solution
 inputs\large-97.in did not give valid solution
+inputs\medium-10.in did not give valid solution
 inputs\medium-100.in did not give valid solution
+inputs\medium-105.in did not give valid solution
+inputs\medium-106.in did not give valid solution
 inputs\medium-107.in did not give valid solution
 inputs\medium-108.in did not give valid solution
 inputs\medium-109.in did not give valid solution
+inputs\medium-11.in did not give valid solution
+inputs\medium-110.in did not give valid solution
 inputs\medium-111.in did not give valid solution
+inputs\medium-112.in did not give valid solution
 inputs\medium-113.in did not give valid solution
 inputs\medium-114.in did not give valid solution
 inputs\medium-115.in did not give valid solution
 inputs\medium-118.in did not give valid solution
+inputs\medium-12.in did not give valid solution
 inputs\medium-120.in did not give valid solution
 inputs\medium-121.in did not give valid solution
+inputs\medium-122.in did not give valid solution
 inputs\medium-123.in did not give valid solution
 inputs\medium-125.in did not give valid solution
 inputs\medium-128.in did not give valid solution
 inputs\medium-129.in did not give valid solution
+inputs\medium-130.in did not give valid solution
 inputs\medium-131.in did not give valid solution
 inputs\medium-135.in did not give valid solution
 inputs\medium-136.in did not give valid solution
 inputs\medium-137.in did not give valid solution
+inputs\medium-139.in did not give valid solution
+inputs\medium-14.in did not give valid solution
 inputs\medium-141.in did not give valid solution
 inputs\medium-143.in did not give valid solution
 inputs\medium-145.in did not give valid solution
+inputs\medium-146.in did not give valid solution
 inputs\medium-147.in did not give valid solution
 inputs\medium-15.in did not give valid solution
+inputs\medium-151.in did not give valid solution
+inputs\medium-152.in did not give valid solution
+inputs\medium-155.in did not give valid solution
 inputs\medium-156.in did not give valid solution
 inputs\medium-157.in did not give valid solution
 inputs\medium-159.in did not give valid solution
+inputs\medium-164.in did not give valid solution
 inputs\medium-166.in did not give valid solution
 inputs\medium-167.in did not give valid solution
 inputs\medium-169.in did not give valid solution
 inputs\medium-170.in did not give valid solution
 inputs\medium-171.in did not give valid solution
+inputs\medium-172.in did not give valid solution
 inputs\medium-174.in did not give valid solution
 inputs\medium-175.in did not give valid solution
+inputs\medium-177.in did not give valid solution
 inputs\medium-18.in did not give valid solution
 inputs\medium-181.in did not give valid solution
 inputs\medium-183.in did not give valid solution
 inputs\medium-184.in did not give valid solution
+inputs\medium-189.in did not give valid solution
 inputs\medium-19.in did not give valid solution
+inputs\medium-191.in did not give valid solution
+inputs\medium-192.in did not give valid solution
+inputs\medium-194.in did not give valid solution
 inputs\medium-195.in did not give valid solution
 inputs\medium-196.in did not give valid solution
+inputs\medium-197.in did not give valid solution
+inputs\medium-2.in did not give valid solution
 inputs\medium-20.in did not give valid solution
 inputs\medium-200.in did not give valid solution
+inputs\medium-202.in did not give valid solution
 inputs\medium-203.in did not give valid solution
 inputs\medium-204.in did not give valid solution
+inputs\medium-205.in did not give valid solution
 inputs\medium-206.in did not give valid solution
 inputs\medium-207.in did not give valid solution
+inputs\medium-208.in did not give valid solution
 inputs\medium-210.in did not give valid solution
 inputs\medium-212.in did not give valid solution
 inputs\medium-215.in did not give valid solution
@@ -154,28 +496,41 @@ inputs\medium-222.in did not give valid solution
 inputs\medium-226.in did not give valid solution
 inputs\medium-23.in did not give valid solution
 inputs\medium-230.in did not give valid solution
+inputs\medium-233.in did not give valid solution
 inputs\medium-236.in did not give valid solution
 inputs\medium-237.in did not give valid solution
 inputs\medium-24.in did not give valid solution
 inputs\medium-240.in did not give valid solution
+inputs\medium-3.in did not give valid solution
 inputs\medium-34.in did not give valid solution
 inputs\medium-35.in did not give valid solution
 inputs\medium-38.in did not give valid solution
 inputs\medium-39.in did not give valid solution
 inputs\medium-4.in did not give valid solution
+inputs\medium-40.in did not give valid solution
 inputs\medium-41.in did not give valid solution
+inputs\medium-42.in did not give valid solution
+inputs\medium-44.in did not give valid solution
 inputs\medium-46.in did not give valid solution
 inputs\medium-50.in did not give valid solution
 inputs\medium-51.in did not give valid solution
 inputs\medium-54.in did not give valid solution
 inputs\medium-58.in did not give valid solution
+inputs\medium-6.in did not give valid solution
+inputs\medium-60.in did not give valid solution
 inputs\medium-61.in did not give valid solution
 inputs\medium-63.in did not give valid solution
+inputs\medium-64.in did not give valid solution
+inputs\medium-65.in did not give valid solution
 inputs\medium-66.in did not give valid solution
+inputs\medium-67.in did not give valid solution
+inputs\medium-69.in did not give valid solution
 inputs\medium-7.in did not give valid solution
 inputs\medium-70.in did not give valid solution
+inputs\medium-73.in did not give valid solution
 inputs\medium-74.in did not give valid solution
 inputs\medium-79.in did not give valid solution
+inputs\medium-80.in did not give valid solution
 inputs\medium-81.in did not give valid solution
 inputs\medium-84.in did not give valid solution
 inputs\medium-85.in did not give valid solution
@@ -188,30 +543,45 @@ inputs\medium-94.in did not give valid solution
 inputs\medium-97.in did not give valid solution
 inputs\small-100.in did not give valid solution
 inputs\small-107.in did not give valid solution
+inputs\small-108.in did not give valid solution
+inputs\small-110.in did not give valid solution
 inputs\small-112.in did not give valid solution
 inputs\small-113.in did not give valid solution
 inputs\small-118.in did not give valid solution
 inputs\small-123.in did not give valid solution
+inputs\small-129.in did not give valid solution
 inputs\small-131.in did not give valid solution
+inputs\small-136.in did not give valid solution
 inputs\small-137.in did not give valid solution
 inputs\small-143.in did not give valid solution
+inputs\small-146.in did not give valid solution
 inputs\small-159.in did not give valid solution
 inputs\small-163.in did not give valid solution
+inputs\small-164.in did not give valid solution
 inputs\small-166.in did not give valid solution
+inputs\small-167.in did not give valid solution
 inputs\small-174.in did not give valid solution
 inputs\small-175.in did not give valid solution
+inputs\small-183.in did not give valid solution
+inputs\small-189.in did not give valid solution
 inputs\small-19.in did not give valid solution
+inputs\small-194.in did not give valid solution
 inputs\small-195.in did not give valid solution
 inputs\small-196.in did not give valid solution
 inputs\small-2.in did not give valid solution
 inputs\small-204.in did not give valid solution
 inputs\small-205.in did not give valid solution
 inputs\small-207.in did not give valid solution
+inputs\small-231.in did not give valid solution
+inputs\small-234.in did not give valid solution
 inputs\small-240.in did not give valid solution
 inputs\small-241.in did not give valid solution
 inputs\small-27.in did not give valid solution
 inputs\small-4.in did not give valid solution
+inputs\small-40.in did not give valid solution
+inputs\small-46.in did not give valid solution
 inputs\small-57.in did not give valid solution
+inputs\small-60.in did not give valid solution
 inputs\small-64.in did not give valid solution
 inputs\small-79.in did not give valid solution
 inputs\small-8.in did not give valid solution
@@ -220,505 +590,135 @@ inputs\small-89.in did not give valid solution
 inputs\small-90.in did not give valid solution
 inputs\small-92.in did not give valid solution
 **skipped coz exists:**
-naiveoutputs/large-1.out
-naiveoutputs/large-10.out
-naiveoutputs/large-100.out
-naiveoutputs/large-101.out
-naiveoutputs/large-103.out
-naiveoutputs/large-104.out
-naiveoutputs/large-105.out
-naiveoutputs/large-112.out
-naiveoutputs/large-116.out
-naiveoutputs/large-117.out
-naiveoutputs/large-119.out
-naiveoutputs/large-120.out
-naiveoutputs/large-121.out
-naiveoutputs/large-122.out
-naiveoutputs/large-124.out
-naiveoutputs/large-126.out
-naiveoutputs/large-127.out
-naiveoutputs/large-129.out
-naiveoutputs/large-13.out
-naiveoutputs/large-133.out
-naiveoutputs/large-134.out
-naiveoutputs/large-138.out
-naiveoutputs/large-14.out
-naiveoutputs/large-140.out
-naiveoutputs/large-142.out
-naiveoutputs/large-143.out
-naiveoutputs/large-144.out
-naiveoutputs/large-146.out
-naiveoutputs/large-149.out
-naiveoutputs/large-150.out
-naiveoutputs/large-152.out
-naiveoutputs/large-153.out
-naiveoutputs/large-154.out
-naiveoutputs/large-157.out
-naiveoutputs/large-158.out
-naiveoutputs/large-16.out
-naiveoutputs/large-160.out
-naiveoutputs/large-161.out
-naiveoutputs/large-162.out
-naiveoutputs/large-163.out
-naiveoutputs/large-164.out
-naiveoutputs/large-165.out
-naiveoutputs/large-167.out
-naiveoutputs/large-168.out
-naiveoutputs/large-176.out
-naiveoutputs/large-178.out
-naiveoutputs/large-179.out
-naiveoutputs/large-18.out
-naiveoutputs/large-180.out
-naiveoutputs/large-181.out
-naiveoutputs/large-182.out
-naiveoutputs/large-186.out
-naiveoutputs/large-187.out
-naiveoutputs/large-188.out
-naiveoutputs/large-189.out
-naiveoutputs/large-190.out
-naiveoutputs/large-191.out
-naiveoutputs/large-195.out
-naiveoutputs/large-198.out
-naiveoutputs/large-199.out
-naiveoutputs/large-2.out
-naiveoutputs/large-201.out
-naiveoutputs/large-202.out
-naiveoutputs/large-205.out
-naiveoutputs/large-209.out
-naiveoutputs/large-21.out
-naiveoutputs/large-211.out
-naiveoutputs/large-212.out
-naiveoutputs/large-213.out
-naiveoutputs/large-214.out
-naiveoutputs/large-215.out
-naiveoutputs/large-216.out
-naiveoutputs/large-217.out
-naiveoutputs/large-22.out
-naiveoutputs/large-220.out
-naiveoutputs/large-221.out
-naiveoutputs/large-223.out
-naiveoutputs/large-226.out
-naiveoutputs/large-227.out
-naiveoutputs/large-228.out
-naiveoutputs/large-229.out
-naiveoutputs/large-23.out
-naiveoutputs/large-232.out
-naiveoutputs/large-234.out
-naiveoutputs/large-237.out
-naiveoutputs/large-238.out
-naiveoutputs/large-239.out
-naiveoutputs/large-241.out
-naiveoutputs/large-25.out
-naiveoutputs/large-26.out
-naiveoutputs/large-27.out
-naiveoutputs/large-28.out
-naiveoutputs/large-29.out
-naiveoutputs/large-30.out
-naiveoutputs/large-31.out
-naiveoutputs/large-32.out
-naiveoutputs/large-33.out
-naiveoutputs/large-36.out
-naiveoutputs/large-37.out
-naiveoutputs/large-40.out
-naiveoutputs/large-43.out
-naiveoutputs/large-44.out
-naiveoutputs/large-48.out
-naiveoutputs/large-49.out
-naiveoutputs/large-5.out
-naiveoutputs/large-52.out
-naiveoutputs/large-53.out
-naiveoutputs/large-55.out
-naiveoutputs/large-56.out
-naiveoutputs/large-59.out
-naiveoutputs/large-6.out
-naiveoutputs/large-60.out
-naiveoutputs/large-62.out
-naiveoutputs/large-64.out
-naiveoutputs/large-69.out
-naiveoutputs/large-70.out
-naiveoutputs/large-71.out
-naiveoutputs/large-72.out
-naiveoutputs/large-73.out
-naiveoutputs/large-75.out
-naiveoutputs/large-76.out
-naiveoutputs/large-77.out
-naiveoutputs/large-78.out
-naiveoutputs/large-80.out
-naiveoutputs/large-82.out
-naiveoutputs/large-83.out
-naiveoutputs/large-88.out
-naiveoutputs/large-9.out
-naiveoutputs/large-91.out
-naiveoutputs/large-92.out
-naiveoutputs/large-93.out
-naiveoutputs/large-94.out
-naiveoutputs/large-95.out
-naiveoutputs/large-96.out
-naiveoutputs/large-98.out
-naiveoutputs/large-99.out
-naiveoutputs/medium-1.out
-naiveoutputs/medium-10.out
-naiveoutputs/medium-101.out
-naiveoutputs/medium-102.out
-naiveoutputs/medium-103.out
-naiveoutputs/medium-104.out
-naiveoutputs/medium-105.out
-naiveoutputs/medium-106.out
-naiveoutputs/medium-11.out
-naiveoutputs/medium-110.out
-naiveoutputs/medium-112.out
-naiveoutputs/medium-116.out
-naiveoutputs/medium-117.out
-naiveoutputs/medium-119.out
-naiveoutputs/medium-12.out
-naiveoutputs/medium-122.out
-naiveoutputs/medium-124.out
-naiveoutputs/medium-126.out
-naiveoutputs/medium-127.out
-naiveoutputs/medium-13.out
-naiveoutputs/medium-130.out
-naiveoutputs/medium-132.out
-naiveoutputs/medium-133.out
-naiveoutputs/medium-134.out
-naiveoutputs/medium-138.out
-naiveoutputs/medium-139.out
-naiveoutputs/medium-14.out
-naiveoutputs/medium-140.out
-naiveoutputs/medium-142.out
-naiveoutputs/medium-144.out
-naiveoutputs/medium-146.out
-naiveoutputs/medium-148.out
-naiveoutputs/medium-149.out
-naiveoutputs/medium-150.out
-naiveoutputs/medium-151.out
-naiveoutputs/medium-152.out
-naiveoutputs/medium-153.out
-naiveoutputs/medium-154.out
-naiveoutputs/medium-155.out
-naiveoutputs/medium-158.out
-naiveoutputs/medium-16.out
-naiveoutputs/medium-160.out
-naiveoutputs/medium-161.out
-naiveoutputs/medium-162.out
-naiveoutputs/medium-163.out
-naiveoutputs/medium-164.out
-naiveoutputs/medium-165.out
-naiveoutputs/medium-168.out
-naiveoutputs/medium-17.out
-naiveoutputs/medium-172.out
-naiveoutputs/medium-173.out
-naiveoutputs/medium-176.out
-naiveoutputs/medium-177.out
-naiveoutputs/medium-178.out
-naiveoutputs/medium-179.out
-naiveoutputs/medium-180.out
-naiveoutputs/medium-182.out
-naiveoutputs/medium-185.out
-naiveoutputs/medium-186.out
-naiveoutputs/medium-187.out
-naiveoutputs/medium-188.out
-naiveoutputs/medium-189.out
-naiveoutputs/medium-190.out
-naiveoutputs/medium-191.out
-naiveoutputs/medium-192.out
-naiveoutputs/medium-193.out
-naiveoutputs/medium-194.out
-naiveoutputs/medium-197.out
-naiveoutputs/medium-198.out
-naiveoutputs/medium-199.out
-naiveoutputs/medium-2.out
-naiveoutputs/medium-201.out
-naiveoutputs/medium-202.out
-naiveoutputs/medium-205.out
-naiveoutputs/medium-208.out
-naiveoutputs/medium-209.out
-naiveoutputs/medium-21.out
-naiveoutputs/medium-211.out
-naiveoutputs/medium-213.out
-naiveoutputs/medium-214.out
-naiveoutputs/medium-216.out
-naiveoutputs/medium-217.out
-naiveoutputs/medium-218.out
-naiveoutputs/medium-22.out
-naiveoutputs/medium-220.out
-naiveoutputs/medium-221.out
-naiveoutputs/medium-223.out
-naiveoutputs/medium-224.out
-naiveoutputs/medium-227.out
-naiveoutputs/medium-228.out
-naiveoutputs/medium-229.out
-naiveoutputs/medium-231.out
-naiveoutputs/medium-232.out
-naiveoutputs/medium-233.out
-naiveoutputs/medium-234.out
-naiveoutputs/medium-235.out
-naiveoutputs/medium-238.out
-naiveoutputs/medium-239.out
-naiveoutputs/medium-241.out
-naiveoutputs/medium-242.out
-naiveoutputs/medium-25.out
-naiveoutputs/medium-26.out
-naiveoutputs/medium-27.out
-naiveoutputs/medium-28.out
-naiveoutputs/medium-29.out
-naiveoutputs/medium-3.out
-naiveoutputs/medium-30.out
-naiveoutputs/medium-31.out
-naiveoutputs/medium-32.out
-naiveoutputs/medium-33.out
-naiveoutputs/medium-36.out
-naiveoutputs/medium-37.out
-naiveoutputs/medium-40.out
-naiveoutputs/medium-42.out
-naiveoutputs/medium-43.out
-naiveoutputs/medium-44.out
-naiveoutputs/medium-45.out
-naiveoutputs/medium-47.out
-naiveoutputs/medium-48.out
-naiveoutputs/medium-49.out
-naiveoutputs/medium-5.out
-naiveoutputs/medium-52.out
-naiveoutputs/medium-53.out
-naiveoutputs/medium-55.out
-naiveoutputs/medium-56.out
-naiveoutputs/medium-57.out
-naiveoutputs/medium-59.out
-naiveoutputs/medium-6.out
-naiveoutputs/medium-60.out
-naiveoutputs/medium-62.out
-naiveoutputs/medium-64.out
-naiveoutputs/medium-65.out
-naiveoutputs/medium-67.out
-naiveoutputs/medium-68.out
-naiveoutputs/medium-69.out
-naiveoutputs/medium-71.out
-naiveoutputs/medium-72.out
-naiveoutputs/medium-73.out
-naiveoutputs/medium-75.out
-naiveoutputs/medium-76.out
-naiveoutputs/medium-77.out
-naiveoutputs/medium-78.out
-naiveoutputs/medium-8.out
-naiveoutputs/medium-80.out
-naiveoutputs/medium-82.out
-naiveoutputs/medium-83.out
-naiveoutputs/medium-88.out
-naiveoutputs/medium-9.out
-naiveoutputs/medium-91.out
-naiveoutputs/medium-92.out
-naiveoutputs/medium-95.out
-naiveoutputs/medium-96.out
-naiveoutputs/medium-98.out
-naiveoutputs/medium-99.out
-naiveoutputs/small-1.out
-naiveoutputs/small-10.out
-naiveoutputs/small-101.out
-naiveoutputs/small-102.out
-naiveoutputs/small-103.out
-naiveoutputs/small-104.out
-naiveoutputs/small-105.out
-naiveoutputs/small-106.out
-naiveoutputs/small-108.out
-naiveoutputs/small-109.out
-naiveoutputs/small-11.out
-naiveoutputs/small-110.out
-naiveoutputs/small-111.out
-naiveoutputs/small-114.out
-naiveoutputs/small-115.out
-naiveoutputs/small-116.out
-naiveoutputs/small-117.out
-naiveoutputs/small-119.out
-naiveoutputs/small-12.out
-naiveoutputs/small-120.out
-naiveoutputs/small-121.out
-naiveoutputs/small-122.out
-naiveoutputs/small-124.out
-naiveoutputs/small-125.out
-naiveoutputs/small-126.out
-naiveoutputs/small-127.out
-naiveoutputs/small-128.out
-naiveoutputs/small-129.out
-naiveoutputs/small-13.out
-naiveoutputs/small-130.out
-naiveoutputs/small-132.out
-naiveoutputs/small-133.out
-naiveoutputs/small-134.out
-naiveoutputs/small-135.out
-naiveoutputs/small-136.out
-naiveoutputs/small-138.out
-naiveoutputs/small-139.out
-naiveoutputs/small-14.out
-naiveoutputs/small-140.out
-naiveoutputs/small-141.out
-naiveoutputs/small-142.out
-naiveoutputs/small-144.out
-naiveoutputs/small-145.out
-naiveoutputs/small-146.out
-naiveoutputs/small-147.out
-naiveoutputs/small-148.out
-naiveoutputs/small-149.out
-naiveoutputs/small-15.out
-naiveoutputs/small-150.out
-naiveoutputs/small-151.out
-naiveoutputs/small-152.out
-naiveoutputs/small-153.out
-naiveoutputs/small-154.out
-naiveoutputs/small-155.out
-naiveoutputs/small-156.out
-naiveoutputs/small-157.out
-naiveoutputs/small-158.out
-naiveoutputs/small-16.out
-naiveoutputs/small-160.out
-naiveoutputs/small-161.out
-naiveoutputs/small-162.out
-naiveoutputs/small-164.out
-naiveoutputs/small-165.out
-naiveoutputs/small-167.out
-naiveoutputs/small-168.out
-naiveoutputs/small-169.out
-naiveoutputs/small-17.out
-naiveoutputs/small-170.out
-naiveoutputs/small-171.out
-naiveoutputs/small-172.out
-naiveoutputs/small-173.out
-naiveoutputs/small-176.out
-naiveoutputs/small-177.out
-naiveoutputs/small-178.out
-naiveoutputs/small-179.out
-naiveoutputs/small-18.out
-naiveoutputs/small-180.out
-naiveoutputs/small-181.out
-naiveoutputs/small-182.out
-naiveoutputs/small-183.out
-naiveoutputs/small-184.out
-naiveoutputs/small-185.out
-naiveoutputs/small-186.out
-naiveoutputs/small-187.out
-naiveoutputs/small-188.out
-naiveoutputs/small-189.out
-naiveoutputs/small-190.out
-naiveoutputs/small-191.out
-naiveoutputs/small-192.out
-naiveoutputs/small-193.out
-naiveoutputs/small-194.out
-naiveoutputs/small-197.out
-naiveoutputs/small-198.out
-naiveoutputs/small-199.out
-naiveoutputs/small-20.out
-naiveoutputs/small-200.out
-naiveoutputs/small-201.out
-naiveoutputs/small-202.out
-naiveoutputs/small-203.out
-naiveoutputs/small-206.out
-naiveoutputs/small-208.out
-naiveoutputs/small-209.out
-naiveoutputs/small-21.out
-naiveoutputs/small-210.out
-naiveoutputs/small-211.out
-naiveoutputs/small-212.out
-naiveoutputs/small-213.out
-naiveoutputs/small-214.out
-naiveoutputs/small-215.out
-naiveoutputs/small-216.out
-naiveoutputs/small-217.out
-naiveoutputs/small-218.out
-naiveoutputs/small-219.out
-naiveoutputs/small-22.out
-naiveoutputs/small-220.out
-naiveoutputs/small-221.out
-naiveoutputs/small-222.out
-naiveoutputs/small-223.out
-naiveoutputs/small-224.out
-naiveoutputs/small-225.out
-naiveoutputs/small-226.out
-naiveoutputs/small-227.out
-naiveoutputs/small-228.out
-naiveoutputs/small-229.out
-naiveoutputs/small-23.out
-naiveoutputs/small-230.out
-naiveoutputs/small-231.out
-naiveoutputs/small-232.out
-naiveoutputs/small-233.out
-naiveoutputs/small-234.out
-naiveoutputs/small-235.out
-naiveoutputs/small-236.out
-naiveoutputs/small-237.out
-naiveoutputs/small-238.out
-naiveoutputs/small-239.out
-naiveoutputs/small-24.out
-naiveoutputs/small-242.out
-naiveoutputs/small-25.out
-naiveoutputs/small-26.out
-naiveoutputs/small-28.out
-naiveoutputs/small-29.out
-naiveoutputs/small-3.out
-naiveoutputs/small-30.out
-naiveoutputs/small-31.out
-naiveoutputs/small-32.out
-naiveoutputs/small-33.out
-naiveoutputs/small-34.out
-naiveoutputs/small-35.out
-naiveoutputs/small-36.out
-naiveoutputs/small-37.out
-naiveoutputs/small-38.out
-naiveoutputs/small-39.out
-naiveoutputs/small-40.out
-naiveoutputs/small-41.out
-naiveoutputs/small-42.out
-naiveoutputs/small-43.out
-naiveoutputs/small-44.out
-naiveoutputs/small-45.out
-naiveoutputs/small-46.out
-naiveoutputs/small-47.out
-naiveoutputs/small-48.out
-naiveoutputs/small-49.out
-naiveoutputs/small-5.out
-naiveoutputs/small-50.out
-naiveoutputs/small-51.out
-naiveoutputs/small-52.out
-naiveoutputs/small-53.out
-naiveoutputs/small-54.out
-naiveoutputs/small-55.out
-naiveoutputs/small-56.out
-naiveoutputs/small-58.out
-naiveoutputs/small-59.out
-naiveoutputs/small-6.out
-naiveoutputs/small-60.out
-naiveoutputs/small-61.out
-naiveoutputs/small-62.out
-naiveoutputs/small-63.out
-naiveoutputs/small-65.out
-naiveoutputs/small-66.out
-naiveoutputs/small-67.out
-naiveoutputs/small-68.out
-naiveoutputs/small-69.out
-naiveoutputs/small-7.out
-naiveoutputs/small-70.out
-naiveoutputs/small-71.out
-naiveoutputs/small-72.out
-naiveoutputs/small-73.out
-naiveoutputs/small-74.out
-naiveoutputs/small-75.out
-naiveoutputs/small-76.out
-naiveoutputs/small-77.out
-naiveoutputs/small-78.out
-naiveoutputs/small-80.out
-naiveoutputs/small-81.out
-naiveoutputs/small-82.out
-naiveoutputs/small-83.out
-naiveoutputs/small-84.out
-naiveoutputs/small-86.out
-naiveoutputs/small-87.out
-naiveoutputs/small-88.out
-naiveoutputs/small-9.out
-naiveoutputs/small-91.out
-naiveoutputs/small-93.out
-naiveoutputs/small-94.out
-naiveoutputs/small-95.out
-naiveoutputs/small-96.out
-naiveoutputs/small-97.out
-naiveoutputs/small-98.out
-naiveoutputs/small-99.out
-**total solved in this iteration**0
-**total unsolved in this iteration**219
-**total skipped coz exists in this iteration**499
+naiveoutputscorrect/medium-59.out
+naiveoutputscorrect/small-1.out
+naiveoutputscorrect/small-10.out
+naiveoutputscorrect/small-102.out
+naiveoutputscorrect/small-103.out
+naiveoutputscorrect/small-104.out
+naiveoutputscorrect/small-105.out
+naiveoutputscorrect/small-106.out
+naiveoutputscorrect/small-109.out
+naiveoutputscorrect/small-111.out
+naiveoutputscorrect/small-114.out
+naiveoutputscorrect/small-115.out
+naiveoutputscorrect/small-116.out
+naiveoutputscorrect/small-117.out
+naiveoutputscorrect/small-120.out
+naiveoutputscorrect/small-121.out
+naiveoutputscorrect/small-125.out
+naiveoutputscorrect/small-126.out
+naiveoutputscorrect/small-127.out
+naiveoutputscorrect/small-128.out
+naiveoutputscorrect/small-13.out
+naiveoutputscorrect/small-132.out
+naiveoutputscorrect/small-133.out
+naiveoutputscorrect/small-134.out
+naiveoutputscorrect/small-135.out
+naiveoutputscorrect/small-138.out
+naiveoutputscorrect/small-139.out
+naiveoutputscorrect/small-14.out
+naiveoutputscorrect/small-140.out
+naiveoutputscorrect/small-141.out
+naiveoutputscorrect/small-145.out
+naiveoutputscorrect/small-147.out
+naiveoutputscorrect/small-15.out
+naiveoutputscorrect/small-150.out
+naiveoutputscorrect/small-151.out
+naiveoutputscorrect/small-152.out
+naiveoutputscorrect/small-153.out
+naiveoutputscorrect/small-155.out
+naiveoutputscorrect/small-156.out
+naiveoutputscorrect/small-157.out
+naiveoutputscorrect/small-16.out
+naiveoutputscorrect/small-160.out
+naiveoutputscorrect/small-161.out
+naiveoutputscorrect/small-162.out
+naiveoutputscorrect/small-169.out
+naiveoutputscorrect/small-170.out
+naiveoutputscorrect/small-171.out
+naiveoutputscorrect/small-172.out
+naiveoutputscorrect/small-173.out
+naiveoutputscorrect/small-177.out
+naiveoutputscorrect/small-178.out
+naiveoutputscorrect/small-18.out
+naiveoutputscorrect/small-181.out
+naiveoutputscorrect/small-184.out
+naiveoutputscorrect/small-187.out
+naiveoutputscorrect/small-188.out
+naiveoutputscorrect/small-191.out
+naiveoutputscorrect/small-193.out
+naiveoutputscorrect/small-20.out
+naiveoutputscorrect/small-200.out
+naiveoutputscorrect/small-201.out
+naiveoutputscorrect/small-202.out
+naiveoutputscorrect/small-203.out
+naiveoutputscorrect/small-206.out
+naiveoutputscorrect/small-209.out
+naiveoutputscorrect/small-213.out
+naiveoutputscorrect/small-214.out
+naiveoutputscorrect/small-215.out
+naiveoutputscorrect/small-217.out
+naiveoutputscorrect/small-218.out
+naiveoutputscorrect/small-220.out
+naiveoutputscorrect/small-221.out
+naiveoutputscorrect/small-222.out
+naiveoutputscorrect/small-223.out
+naiveoutputscorrect/small-225.out
+naiveoutputscorrect/small-226.out
+naiveoutputscorrect/small-227.out
+naiveoutputscorrect/small-228.out
+naiveoutputscorrect/small-229.out
+naiveoutputscorrect/small-23.out
+naiveoutputscorrect/small-230.out
+naiveoutputscorrect/small-233.out
+naiveoutputscorrect/small-235.out
+naiveoutputscorrect/small-236.out
+naiveoutputscorrect/small-242.out
+naiveoutputscorrect/small-25.out
+naiveoutputscorrect/small-28.out
+naiveoutputscorrect/small-29.out
+naiveoutputscorrect/small-33.out
+naiveoutputscorrect/small-34.out
+naiveoutputscorrect/small-35.out
+naiveoutputscorrect/small-36.out
+naiveoutputscorrect/small-38.out
+naiveoutputscorrect/small-39.out
+naiveoutputscorrect/small-42.out
+naiveoutputscorrect/small-43.out
+naiveoutputscorrect/small-44.out
+naiveoutputscorrect/small-47.out
+naiveoutputscorrect/small-49.out
+naiveoutputscorrect/small-51.out
+naiveoutputscorrect/small-52.out
+naiveoutputscorrect/small-53.out
+naiveoutputscorrect/small-54.out
+naiveoutputscorrect/small-55.out
+naiveoutputscorrect/small-56.out
+naiveoutputscorrect/small-59.out
+naiveoutputscorrect/small-6.out
+naiveoutputscorrect/small-61.out
+naiveoutputscorrect/small-62.out
+naiveoutputscorrect/small-63.out
+naiveoutputscorrect/small-66.out
+naiveoutputscorrect/small-67.out
+naiveoutputscorrect/small-69.out
+naiveoutputscorrect/small-7.out
+naiveoutputscorrect/small-72.out
+naiveoutputscorrect/small-73.out
+naiveoutputscorrect/small-74.out
+naiveoutputscorrect/small-76.out
+naiveoutputscorrect/small-77.out
+naiveoutputscorrect/small-78.out
+naiveoutputscorrect/small-80.out
+naiveoutputscorrect/small-82.out
+naiveoutputscorrect/small-86.out
+naiveoutputscorrect/small-87.out
+naiveoutputscorrect/small-88.out
+naiveoutputscorrect/small-9.out
+naiveoutputscorrect/small-94.out
+naiveoutputscorrect/small-96.out
+naiveoutputscorrect/small-97.out
+**total solved in this iteration**283
+**total unsolved in this iteration**306
+**total skipped coz exists in this iteration**129
