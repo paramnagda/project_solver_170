@@ -43,19 +43,19 @@ def solve(G, s, h = 0):
     print('model has {} vars, {} constraints and {} nzs'.format(m.num_cols, m.num_rows, m.num_nz))
     m += xsum(sameroom[i][j]*stress_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= s
     
-    for i in range(numnodes-1):
+    for i in range(numnodes-2):
         for j in range(i+1,numnodes-1):
-            for k in range(j+1,numnodes-1):
-                # print(i,j,k)
-                # print(i,j-i-1)
-                # print(j,k-j-1)
-                # print(i,k-i-1)
+            for k in range(j+1,numnodes):
+                print(i,j,k)
+                print(i,j-i-1)
+                print(j,k-j-1)
+                print(i,k-i-1)
                 m += sameroom[i][j-i-1] + sameroom[j][k-j-1] <= sameroom[i][k-i-1]  + 1
                 m += sameroom[i][j-i-1] + sameroom[i][k-i-1] <= sameroom[j][k-j-1]  + 1
                 m += sameroom[i][k-i-1] + sameroom[j][k-j-1] <= sameroom[i][j-i-1]  + 1
 
-    for i in range(numnodes):
-        m += xsum(sameroom[i][j] for j in range(numnodes - i - 1)) + xsum(sameroom[j][i-j-1] for j in range(i+1,numnodes-1))
+    # for i in range(numnodes):
+    #     m += xsum(sameroom[i][j] for j in range(numnodes - i - 1)) + xsum(sameroom[j][i-j-1] for j in range(i+1,numnodes-1)) >= 1
     
     minstress = minimumstress(G)
     maxstress = maximumstress(G)
@@ -135,7 +135,7 @@ if __name__ == '__main__':
     #nonodes = G.number_of_nodes()
     # for edge in G.edges:
         # print('identifier for', edge, ':\t', pairidentifier(edge[0], edge[1], nonodes))
-    solve(G,s)
+    solve(G,s,173)
     # numnodes = G.number_of_nodes()
     # edgesdata = G.edges.data()
     # sameroom = [[m.add_var(var_type=BINARY) for i in range(j,numnodes)] for j in range(numnodes)]
