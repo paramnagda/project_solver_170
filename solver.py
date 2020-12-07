@@ -225,15 +225,6 @@ def writeupdate(solved, unsolved, skippedcozexists):
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
-    assert len(sys.argv) == 2
-    path = sys.argv[1]
-    G, s = read_input_file(path)
-    #nonodes = G.number_of_nodes()
-    # for edge in G.edges:
-        # print('identifier for', edge, ':\t', pairidentifier(edge[0], edge[1], nonodes))
-    solve(G,s,173)
-=======
     start = time.time()
     ctr = 0
     unsolvedctr = 0
@@ -310,7 +301,6 @@ if __name__ == '__main__':
     #     write_output_file(D, output_path)
     # else:
     #     print("NO SOLUTION FOUND FOR", path)
->>>>>>> 38228ba4e43458289ca864619ddb7ead59bc547f
     # numnodes = G.number_of_nodes()
     # edgesdata = G.edges.data()
     # sameroom = [[m.add_var(var_type=BINARY) for i in range(j,numnodes)] for j in range(numnodes)]
