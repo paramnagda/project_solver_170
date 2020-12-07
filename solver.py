@@ -20,67 +20,6 @@ def solve(G, s, h = 0):
         k: Number of breakout rooms
     """
     numnodes = G.number_of_nodes()
-<<<<<<< HEAD
-    #numnodes = 4
-    edgesdata = G.edges.data()
-    num_edges = len(edgesdata)
-    stress_tri = []
-    happiness_tri = []
-    for i in range(numnodes-1):
-        stress_tri.append([j[2]['stress'] for j in edgesdata if j[0] == i])
-    print("stress_tri",stress_tri)
-    for i in range(numnodes-1):
-        happiness_tri.append([j[2]['happiness'] for j in edgesdata if j[0] == i])
-    sameroom = [[m.add_var(var_type=BINARY) for j in range(numnodes - i - 1)] for i in range(numnodes-1)]
-    #happiness_tri = [[1,2,3],[2,0],[1]]
-    print("happiness_tri",happiness_tri)
-    print(sum([len(i) for i in happiness_tri]))
-    #print(sum([len(i) for i in sameroom]))
-    if(h > 0):
-        m += xsum(sameroom[i][j]*happiness_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) >= h
-    else:
-        m.objective = maximize(xsum(sameroom[i][j]*happiness_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)))
-        #m.objective = maximize(xsum(c[i][j]*y[i][j] for i in range(2) for j in range(2)))
-    print("checkpoint1")
-    print('model has {} vars, {} constraints and {} nzs'.format(m.num_cols, m.num_rows, m.num_nz))
-    m += xsum(sameroom[i][j]*stress_tri[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= s
-    
-    for i in range(numnodes-2):
-        for j in range(i+1,numnodes-1):
-            for k in range(j+1,numnodes):
-                print(i,j,k)
-                print(i,j-i-1)
-                print(j,k-j-1)
-                print(i,k-i-1)
-                m += sameroom[i][j-i-1] + sameroom[j][k-j-1] <= sameroom[i][k-i-1]  + 1
-                m += sameroom[i][j-i-1] + sameroom[i][k-i-1] <= sameroom[j][k-j-1]  + 1
-                m += sameroom[i][k-i-1] + sameroom[j][k-j-1] <= sameroom[i][j-i-1]  + 1
-
-    # for i in range(numnodes):
-    #     m += xsum(sameroom[i][j] for j in range(numnodes - i - 1)) + xsum(sameroom[j][i-j-1] for j in range(i+1,numnodes-1)) >= 1
-    
-    minstress = minimumstress(G)
-    maxstress = maximumstress(G)
-    minpair = numpairs(G.number_of_nodes(), s, minstress[2]['stress'])
-    maxpair = numpairs(G.number_of_nodes(), s, maxstress[2]['stress'])
-    min_p = room_student_stress_bound(G.number_of_nodes(),minpair[1],minpair[0],minstress)
-    print(min_p)
-    max_p = room_student_stress_bound(G.number_of_nodes(),maxpair[1],maxpair[0],maxstress)
-    print(max_p)
-    m += xsum(sameroom[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) <= min_p
-    m += xsum(sameroom[i][j] for i in range(numnodes - 1) for j in range(numnodes-i-1)) >= max_p
-    print("checkpoint2")
-    m.optimize()
-
-    if m.num_solutions:
-        # print(y[0][0].x)
-        # print(y[0][1].x)
-        # print(y[1][0].x)
-        # print(y[1][1].x)
-        # room_to_student = []
-        stress_sum = 0
-        happiness_sum = 0
-=======
     valid = False
     stress_sum = 0
     ctr =0
@@ -96,7 +35,6 @@ def solve(G, s, h = 0):
         num_edges = len(edgesdata)
         stress_tri = []
         happiness_tri = []
->>>>>>> 38228ba4e43458289ca864619ddb7ead59bc547f
         for i in range(numnodes-1):
             stress_tri.append([j[2]['stress'] for j in edgesdata if j[0] == i])
         print("stress_tri",stress_tri)
