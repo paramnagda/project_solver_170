@@ -237,15 +237,19 @@ if __name__ == '__main__':
         happinessdict = {}
         skippedcozexists = []
         inputs = glob.glob('inputs/*')
+        ctr = 0
+        unsolvedctr = 0
         for input_path in inputs:
-            if "large" in input_path:
+            if "large" in input_path or "medium" in input_path or "small" in input_path:
                 output_path = 'naiveoutputs/' + basename(normpath(input_path))[:-3] + '.out'
                 if os.path.isfile(output_path):
+                    ctr += 1
                     print("skipping", output_path, "because it already exists")
                     skippedcozexists += [output_path]
                     writeupdate(happinessdict, unsolveddict, skippedcozexists)
                     continue
                 else:
+                    unsolvedctr += 1
                     print("now attempting", input_path)
                     G, s = read_input_file(input_path)
                     try:
@@ -266,6 +270,9 @@ if __name__ == '__main__':
                         continue
     end = time.time()
     print("total time taken:", end - start)
+    print("total solved inputs:", ctr)
+    print("total unsolved inputs:", unsolvedctr)
+    
 
 
         
@@ -307,6 +314,20 @@ if __name__ == '__main__':
     # print("max with max",room_student_stress_bound(G.number_of_nodes(),maxpair[1],maxpair[0],maxstress))
     # print("min with max",room_student_stress_bound(G.number_of_nodes(),minpair[1],minpair[0],maxstress))
     # print("max with min",room_student_stress_bound(G.number_of_nodes(),maxpair[1],maxpair[0],minstress))
+
+    # for input_path in inputs:
+    #     if "large" in input_path or "medium" in input_path or "small" in input_path:
+    #         output_path = 'naiveoutputs/' + basename(normpath(input_path))[:-3] + '.out'
+    #         if os.path.isfile(output_path):
+    #             ctr += 1
+    #             continue
+    #             print("skipping", output_path, "because it already exists")
+    #             skippedcozexists += [output_path]
+    #             writeupdate(happinessdict, unsolveddict, skippedcozexists)
+    #             continue
+    #         else:
+    #             unsolvedctr += 1
+    #             continue
 
 
     #D, k = solve(G, s)
