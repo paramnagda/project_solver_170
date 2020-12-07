@@ -242,7 +242,7 @@ if __name__ == '__main__':
         inputs = glob.glob('inputs/*')
         for input_path in inputs:
             if "large" in input_path or "medium" in input_path or "small" in input_path:
-                output_path = 'naiveoutputscorrect/' + basename(normpath(input_path))[:-3] + '.out'
+                output_path = 'naiveoutputs2/' + basename(normpath(input_path))[:-3] + '.out'
                 if os.path.isfile(output_path):
                     ctr += 1
                     print("skipping", output_path, "because it already exists")
@@ -250,18 +250,19 @@ if __name__ == '__main__':
                     writeupdate(happinessdict, unsolveddict, skippedcozexists)
                     continue
                 else:
-                    unsolvedctr += 1
                     print("now attempting", input_path)
                     G, s = read_input_file(input_path)
                     try:
                         D, k = solverNotOptimal(G, s)
                         if D or k:
                             assert is_valid_solution(D, G, s, k)
+                            ctr += 1
                             happiness = calculate_happiness(D, G)
                             write_output_file(D, output_path)
                             happinessdict[input_path] = happiness
                         else:
                             unsolveddict[input_path] = "did not give valid solution"
+                            unsolvedctr += 1
                         print("solved list", happinessdict)
                         print("unsolved list", unsolveddict)
                         writeupdate(happinessdict, unsolveddict, skippedcozexists)
