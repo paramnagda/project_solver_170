@@ -4,6 +4,7 @@ inputs/small-10.in 1188.0
 inputs/small-11.in 33.583999999999996
 inputs/small-129.in 60.0
 **skipped in this iteration:**
+<<<<<<< HEAD
 inputs/small-188.in did not give valid solution so trivially solved
 inputs/small-35.in did not give valid solution so trivially solved
 inputs/small-196.in did not give valid solution so trivially solved
@@ -122,3 +123,485 @@ amogh2/small-112.out
 **total solved in this iteration**4
 **trivially solved in this iteration**5
 **total skipped coz exists in this iteration**109
+=======
+inputs\large-1.in did not give valid solution so trivially solved
+inputs\large-10.in did not give valid solution so trivially solved
+inputs\large-100.in did not give valid solution so trivially solved
+inputs\large-101.in did not give valid solution so trivially solved
+inputs\large-102.in did not give valid solution so trivially solved
+inputs\large-103.in did not give valid solution so trivially solved
+inputs\large-104.in did not give valid solution so trivially solved
+inputs\large-105.in did not give valid solution so trivially solved
+inputs\large-106.in did not give valid solution so trivially solved
+inputs\large-107.in did not give valid solution so trivially solved
+inputs\large-108.in did not give valid solution so trivially solved
+inputs\large-109.in did not give valid solution so trivially solved
+inputs\large-11.in did not give valid solution so trivially solved
+inputs\large-110.in did not give valid solution so trivially solved
+inputs\large-111.in did not give valid solution so trivially solved
+inputs\large-112.in did not give valid solution so trivially solved
+inputs\large-113.in did not give valid solution so trivially solved
+inputs\large-114.in did not give valid solution so trivially solved
+inputs\large-115.in did not give valid solution so trivially solved
+inputs\large-116.in did not give valid solution so trivially solved
+inputs\large-118.in did not give valid solution so trivially solved
+inputs\large-119.in did not give valid solution so trivially solved
+inputs\large-12.in did not give valid solution so trivially solved
+inputs\large-120.in did not give valid solution so trivially solved
+inputs\large-121.in did not give valid solution so trivially solved
+inputs\large-122.in did not give valid solution so trivially solved
+inputs\large-123.in did not give valid solution so trivially solved
+inputs\large-124.in did not give valid solution so trivially solved
+inputs\large-125.in did not give valid solution so trivially solved
+inputs\large-126.in did not give valid solution so trivially solved
+inputs\large-127.in did not give valid solution so trivially solved
+inputs\large-128.in did not give valid solution so trivially solved
+inputs\large-129.in did not give valid solution so trivially solved
+inputs\large-13.in did not give valid solution so trivially solved
+inputs\large-130.in did not give valid solution so trivially solved
+inputs\large-131.in did not give valid solution so trivially solved
+inputs\large-132.in did not give valid solution so trivially solved
+inputs\large-133.in did not give valid solution so trivially solved
+inputs\large-134.in did not give valid solution so trivially solved
+inputs\large-136.in did not give valid solution so trivially solved
+inputs\large-137.in did not give valid solution so trivially solved
+inputs\large-138.in did not give valid solution so trivially solved
+inputs\large-139.in did not give valid solution so trivially solved
+inputs\large-14.in did not give valid solution so trivially solved
+inputs\large-140.in did not give valid solution so trivially solved
+inputs\large-141.in did not give valid solution so trivially solved
+inputs\large-142.in did not give valid solution so trivially solved
+inputs\large-143.in did not give valid solution so trivially solved
+inputs\large-145.in did not give valid solution so trivially solved
+inputs\large-146.in did not give valid solution so trivially solved
+inputs\large-147.in did not give valid solution so trivially solved
+inputs\large-148.in did not give valid solution so trivially solved
+inputs\large-149.in did not give valid solution so trivially solved
+inputs\large-15.in did not give valid solution so trivially solved
+inputs\large-150.in did not give valid solution so trivially solved
+inputs\large-152.in did not give valid solution so trivially solved
+inputs\large-153.in did not give valid solution so trivially solved
+inputs\large-154.in did not give valid solution so trivially solved
+inputs\large-155.in did not give valid solution so trivially solved
+inputs\large-156.in did not give valid solution so trivially solved
+inputs\large-157.in did not give valid solution so trivially solved
+inputs\large-158.in did not give valid solution so trivially solved
+inputs\large-159.in did not give valid solution so trivially solved
+inputs\large-16.in did not give valid solution so trivially solved
+inputs\large-161.in did not give valid solution so trivially solved
+inputs\large-162.in did not give valid solution so trivially solved
+inputs\large-163.in did not give valid solution so trivially solved
+inputs\large-164.in did not give valid solution so trivially solved
+inputs\large-165.in did not give valid solution so trivially solved
+inputs\large-166.in did not give valid solution so trivially solved
+inputs\large-167.in did not give valid solution so trivially solved
+inputs\large-168.in did not give valid solution so trivially solved
+inputs\large-169.in did not give valid solution so trivially solved
+inputs\large-17.in did not give valid solution so trivially solved
+inputs\large-170.in did not give valid solution so trivially solved
+inputs\large-172.in did not give valid solution so trivially solved
+inputs\large-174.in did not give valid solution so trivially solved
+inputs\large-175.in did not give valid solution so trivially solved
+inputs\large-176.in did not give valid solution so trivially solved
+inputs\large-177.in did not give valid solution so trivially solved
+inputs\large-179.in did not give valid solution so trivially solved
+inputs\large-18.in did not give valid solution so trivially solved
+inputs\large-180.in did not give valid solution so trivially solved
+inputs\large-181.in did not give valid solution so trivially solved
+inputs\large-182.in did not give valid solution so trivially solved
+inputs\large-183.in did not give valid solution so trivially solved
+inputs\large-184.in did not give valid solution so trivially solved
+inputs\large-185.in did not give valid solution so trivially solved
+inputs\large-186.in did not give valid solution so trivially solved
+inputs\large-188.in did not give valid solution so trivially solved
+inputs\large-189.in did not give valid solution so trivially solved
+inputs\large-19.in did not give valid solution so trivially solved
+inputs\large-190.in did not give valid solution so trivially solved
+inputs\large-191.in did not give valid solution so trivially solved
+inputs\large-192.in did not give valid solution so trivially solved
+inputs\large-193.in did not give valid solution so trivially solved
+inputs\large-194.in did not give valid solution so trivially solved
+inputs\large-195.in did not give valid solution so trivially solved
+inputs\large-196.in did not give valid solution so trivially solved
+inputs\large-197.in did not give valid solution so trivially solved
+inputs\large-198.in did not give valid solution so trivially solved
+inputs\large-199.in did not give valid solution so trivially solved
+inputs\large-2.in did not give valid solution so trivially solved
+inputs\large-20.in did not give valid solution so trivially solved
+inputs\large-200.in did not give valid solution so trivially solved
+inputs\large-203.in did not give valid solution so trivially solved
+inputs\large-204.in did not give valid solution so trivially solved
+inputs\large-205.in did not give valid solution so trivially solved
+inputs\large-206.in did not give valid solution so trivially solved
+inputs\large-209.in did not give valid solution so trivially solved
+inputs\large-21.in did not give valid solution so trivially solved
+inputs\large-210.in did not give valid solution so trivially solved
+inputs\large-211.in did not give valid solution so trivially solved
+inputs\large-212.in did not give valid solution so trivially solved
+inputs\large-214.in did not give valid solution so trivially solved
+inputs\large-215.in did not give valid solution so trivially solved
+inputs\large-216.in did not give valid solution so trivially solved
+inputs\large-217.in did not give valid solution so trivially solved
+inputs\large-22.in did not give valid solution so trivially solved
+inputs\large-220.in did not give valid solution so trivially solved
+inputs\large-221.in did not give valid solution so trivially solved
+inputs\large-222.in did not give valid solution so trivially solved
+inputs\large-223.in did not give valid solution so trivially solved
+inputs\large-225.in did not give valid solution so trivially solved
+inputs\large-226.in did not give valid solution so trivially solved
+inputs\large-227.in did not give valid solution so trivially solved
+inputs\large-228.in did not give valid solution so trivially solved
+inputs\large-229.in did not give valid solution so trivially solved
+inputs\large-23.in did not give valid solution so trivially solved
+inputs\large-230.in did not give valid solution so trivially solved
+inputs\large-231.in did not give valid solution so trivially solved
+inputs\large-232.in did not give valid solution so trivially solved
+inputs\large-233.in did not give valid solution so trivially solved
+inputs\large-234.in did not give valid solution so trivially solved
+inputs\large-236.in did not give valid solution so trivially solved
+inputs\large-237.in did not give valid solution so trivially solved
+inputs\large-238.in did not give valid solution so trivially solved
+inputs\large-239.in did not give valid solution so trivially solved
+inputs\large-24.in did not give valid solution so trivially solved
+inputs\large-240.in did not give valid solution so trivially solved
+inputs\large-241.in did not give valid solution so trivially solved
+inputs\large-242.in did not give valid solution so trivially solved
+inputs\large-25.in did not give valid solution so trivially solved
+inputs\large-26.in did not give valid solution so trivially solved
+inputs\large-27.in did not give valid solution so trivially solved
+inputs\large-28.in did not give valid solution so trivially solved
+inputs\large-29.in did not give valid solution so trivially solved
+inputs\large-3.in did not give valid solution so trivially solved
+inputs\large-30.in did not give valid solution so trivially solved
+inputs\large-31.in did not give valid solution so trivially solved
+inputs\large-32.in did not give valid solution so trivially solved
+inputs\large-34.in did not give valid solution so trivially solved
+inputs\large-35.in did not give valid solution so trivially solved
+inputs\large-36.in did not give valid solution so trivially solved
+inputs\large-37.in did not give valid solution so trivially solved
+inputs\large-38.in did not give valid solution so trivially solved
+inputs\large-39.in did not give valid solution so trivially solved
+inputs\large-4.in did not give valid solution so trivially solved
+inputs\large-40.in did not give valid solution so trivially solved
+inputs\large-41.in did not give valid solution so trivially solved
+inputs\large-42.in did not give valid solution so trivially solved
+inputs\large-43.in did not give valid solution so trivially solved
+inputs\large-44.in did not give valid solution so trivially solved
+inputs\large-45.in did not give valid solution so trivially solved
+inputs\large-46.in did not give valid solution so trivially solved
+inputs\large-47.in did not give valid solution so trivially solved
+inputs\large-49.in did not give valid solution so trivially solved
+inputs\large-5.in did not give valid solution so trivially solved
+inputs\large-50.in did not give valid solution so trivially solved
+inputs\large-51.in did not give valid solution so trivially solved
+inputs\large-52.in did not give valid solution so trivially solved
+inputs\large-53.in did not give valid solution so trivially solved
+inputs\large-55.in did not give valid solution so trivially solved
+inputs\large-57.in did not give valid solution so trivially solved
+inputs\large-58.in did not give valid solution so trivially solved
+inputs\large-59.in did not give valid solution so trivially solved
+inputs\large-6.in did not give valid solution so trivially solved
+inputs\large-60.in did not give valid solution so trivially solved
+inputs\large-61.in did not give valid solution so trivially solved
+inputs\large-62.in did not give valid solution so trivially solved
+inputs\large-63.in did not give valid solution so trivially solved
+inputs\large-64.in did not give valid solution so trivially solved
+inputs\large-65.in did not give valid solution so trivially solved
+inputs\large-66.in did not give valid solution so trivially solved
+inputs\large-67.in did not give valid solution so trivially solved
+inputs\large-68.in did not give valid solution so trivially solved
+inputs\large-69.in did not give valid solution so trivially solved
+inputs\large-70.in did not give valid solution so trivially solved
+inputs\large-71.in did not give valid solution so trivially solved
+inputs\large-74.in did not give valid solution so trivially solved
+inputs\large-75.in did not give valid solution so trivially solved
+inputs\large-76.in did not give valid solution so trivially solved
+inputs\large-78.in did not give valid solution so trivially solved
+inputs\large-79.in did not give valid solution so trivially solved
+inputs\large-8.in did not give valid solution so trivially solved
+inputs\large-82.in did not give valid solution so trivially solved
+inputs\large-83.in did not give valid solution so trivially solved
+inputs\large-84.in did not give valid solution so trivially solved
+inputs\large-85.in did not give valid solution so trivially solved
+inputs\large-86.in did not give valid solution so trivially solved
+inputs\large-87.in did not give valid solution so trivially solved
+inputs\large-88.in did not give valid solution so trivially solved
+inputs\large-89.in did not give valid solution so trivially solved
+inputs\large-90.in did not give valid solution so trivially solved
+inputs\large-92.in did not give valid solution so trivially solved
+inputs\large-93.in did not give valid solution so trivially solved
+inputs\large-94.in did not give valid solution so trivially solved
+inputs\large-95.in did not give valid solution so trivially solved
+inputs\large-96.in did not give valid solution so trivially solved
+inputs\large-97.in did not give valid solution so trivially solved
+inputs\large-98.in did not give valid solution so trivially solved
+inputs\large-99.in did not give valid solution so trivially solved
+inputs\medium-1.in did not give valid solution so trivially solved
+inputs\medium-10.in did not give valid solution so trivially solved
+inputs\medium-100.in did not give valid solution so trivially solved
+inputs\medium-101.in did not give valid solution so trivially solved
+inputs\medium-102.in did not give valid solution so trivially solved
+inputs\medium-103.in did not give valid solution so trivially solved
+inputs\medium-104.in did not give valid solution so trivially solved
+inputs\medium-105.in did not give valid solution so trivially solved
+inputs\medium-106.in did not give valid solution so trivially solved
+inputs\medium-107.in did not give valid solution so trivially solved
+inputs\medium-108.in did not give valid solution so trivially solved
+inputs\medium-109.in did not give valid solution so trivially solved
+inputs\medium-11.in did not give valid solution so trivially solved
+inputs\medium-110.in did not give valid solution so trivially solved
+inputs\medium-111.in did not give valid solution so trivially solved
+inputs\medium-112.in did not give valid solution so trivially solved
+inputs\medium-113.in did not give valid solution so trivially solved
+inputs\medium-114.in did not give valid solution so trivially solved
+inputs\medium-115.in did not give valid solution so trivially solved
+inputs\medium-116.in did not give valid solution so trivially solved
+inputs\medium-117.in did not give valid solution so trivially solved
+inputs\medium-118.in did not give valid solution so trivially solved
+inputs\medium-119.in did not give valid solution so trivially solved
+inputs\medium-12.in did not give valid solution so trivially solved
+inputs\medium-120.in did not give valid solution so trivially solved
+inputs\medium-121.in did not give valid solution so trivially solved
+inputs\medium-122.in did not give valid solution so trivially solved
+inputs\medium-123.in did not give valid solution so trivially solved
+inputs\medium-124.in did not give valid solution so trivially solved
+inputs\medium-125.in did not give valid solution so trivially solved
+inputs\medium-126.in did not give valid solution so trivially solved
+inputs\medium-127.in did not give valid solution so trivially solved
+inputs\medium-128.in did not give valid solution so trivially solved
+inputs\medium-129.in did not give valid solution so trivially solved
+inputs\medium-13.in did not give valid solution so trivially solved
+inputs\medium-130.in did not give valid solution so trivially solved
+inputs\medium-131.in did not give valid solution so trivially solved
+inputs\medium-132.in did not give valid solution so trivially solved
+inputs\medium-133.in did not give valid solution so trivially solved
+inputs\medium-134.in did not give valid solution so trivially solved
+inputs\medium-135.in did not give valid solution so trivially solved
+inputs\medium-136.in did not give valid solution so trivially solved
+inputs\medium-137.in did not give valid solution so trivially solved
+inputs\medium-138.in did not give valid solution so trivially solved
+inputs\medium-139.in did not give valid solution so trivially solved
+inputs\medium-14.in did not give valid solution so trivially solved
+inputs\medium-140.in did not give valid solution so trivially solved
+inputs\medium-141.in did not give valid solution so trivially solved
+inputs\medium-142.in did not give valid solution so trivially solved
+inputs\medium-143.in did not give valid solution so trivially solved
+inputs\medium-144.in did not give valid solution so trivially solved
+inputs\medium-145.in did not give valid solution so trivially solved
+inputs\medium-146.in did not give valid solution so trivially solved
+inputs\medium-147.in did not give valid solution so trivially solved
+inputs\medium-148.in did not give valid solution so trivially solved
+inputs\medium-149.in did not give valid solution so trivially solved
+inputs\medium-15.in did not give valid solution so trivially solved
+inputs\medium-150.in did not give valid solution so trivially solved
+inputs\medium-151.in did not give valid solution so trivially solved
+inputs\medium-152.in did not give valid solution so trivially solved
+inputs\medium-153.in did not give valid solution so trivially solved
+inputs\medium-154.in did not give valid solution so trivially solved
+inputs\medium-155.in did not give valid solution so trivially solved
+inputs\medium-156.in did not give valid solution so trivially solved
+inputs\medium-157.in did not give valid solution so trivially solved
+inputs\medium-158.in did not give valid solution so trivially solved
+inputs\medium-159.in did not give valid solution so trivially solved
+inputs\medium-16.in did not give valid solution so trivially solved
+inputs\medium-161.in did not give valid solution so trivially solved
+inputs\medium-162.in did not give valid solution so trivially solved
+inputs\medium-163.in did not give valid solution so trivially solved
+inputs\medium-164.in did not give valid solution so trivially solved
+inputs\medium-165.in did not give valid solution so trivially solved
+inputs\medium-166.in did not give valid solution so trivially solved
+inputs\medium-167.in did not give valid solution so trivially solved
+inputs\medium-168.in did not give valid solution so trivially solved
+inputs\medium-169.in did not give valid solution so trivially solved
+inputs\medium-17.in did not give valid solution so trivially solved
+inputs\medium-170.in did not give valid solution so trivially solved
+inputs\medium-171.in did not give valid solution so trivially solved
+inputs\medium-172.in did not give valid solution so trivially solved
+inputs\medium-173.in did not give valid solution so trivially solved
+inputs\medium-174.in did not give valid solution so trivially solved
+inputs\medium-175.in did not give valid solution so trivially solved
+inputs\medium-176.in did not give valid solution so trivially solved
+inputs\medium-177.in did not give valid solution so trivially solved
+inputs\medium-179.in did not give valid solution so trivially solved
+inputs\medium-18.in did not give valid solution so trivially solved
+inputs\medium-180.in did not give valid solution so trivially solved
+inputs\medium-181.in did not give valid solution so trivially solved
+inputs\medium-182.in did not give valid solution so trivially solved
+inputs\medium-183.in did not give valid solution so trivially solved
+inputs\medium-184.in did not give valid solution so trivially solved
+inputs\medium-185.in did not give valid solution so trivially solved
+inputs\medium-186.in did not give valid solution so trivially solved
+inputs\medium-188.in did not give valid solution so trivially solved
+inputs\medium-189.in did not give valid solution so trivially solved
+inputs\medium-19.in did not give valid solution so trivially solved
+inputs\medium-190.in did not give valid solution so trivially solved
+inputs\medium-191.in did not give valid solution so trivially solved
+inputs\medium-192.in did not give valid solution so trivially solved
+inputs\medium-193.in did not give valid solution so trivially solved
+inputs\medium-194.in did not give valid solution so trivially solved
+inputs\medium-195.in did not give valid solution so trivially solved
+inputs\medium-196.in did not give valid solution so trivially solved
+inputs\medium-197.in did not give valid solution so trivially solved
+inputs\medium-198.in did not give valid solution so trivially solved
+inputs\medium-199.in did not give valid solution so trivially solved
+inputs\medium-2.in did not give valid solution so trivially solved
+inputs\medium-20.in did not give valid solution so trivially solved
+inputs\medium-200.in did not give valid solution so trivially solved
+inputs\medium-201.in did not give valid solution so trivially solved
+inputs\medium-202.in did not give valid solution so trivially solved
+inputs\medium-203.in did not give valid solution so trivially solved
+inputs\medium-204.in did not give valid solution so trivially solved
+inputs\medium-205.in did not give valid solution so trivially solved
+inputs\medium-206.in did not give valid solution so trivially solved
+inputs\medium-207.in did not give valid solution so trivially solved
+inputs\medium-208.in did not give valid solution so trivially solved
+inputs\medium-209.in did not give valid solution so trivially solved
+inputs\medium-21.in did not give valid solution so trivially solved
+inputs\medium-210.in did not give valid solution so trivially solved
+inputs\medium-211.in did not give valid solution so trivially solved
+inputs\medium-212.in did not give valid solution so trivially solved
+inputs\medium-214.in did not give valid solution so trivially solved
+inputs\medium-215.in did not give valid solution so trivially solved
+inputs\medium-216.in did not give valid solution so trivially solved
+inputs\medium-22.in did not give valid solution so trivially solved
+inputs\medium-220.in did not give valid solution so trivially solved
+inputs\medium-221.in did not give valid solution so trivially solved
+inputs\medium-222.in did not give valid solution so trivially solved
+inputs\medium-223.in did not give valid solution so trivially solved
+inputs\medium-224.in did not give valid solution so trivially solved
+inputs\medium-226.in did not give valid solution so trivially solved
+inputs\medium-228.in did not give valid solution so trivially solved
+inputs\medium-229.in did not give valid solution so trivially solved
+inputs\medium-23.in did not give valid solution so trivially solved
+inputs\medium-230.in did not give valid solution so trivially solved
+inputs\medium-231.in did not give valid solution so trivially solved
+inputs\medium-232.in did not give valid solution so trivially solved
+inputs\medium-233.in did not give valid solution so trivially solved
+inputs\medium-234.in did not give valid solution so trivially solved
+inputs\medium-235.in did not give valid solution so trivially solved
+inputs\medium-236.in did not give valid solution so trivially solved
+inputs\medium-237.in did not give valid solution so trivially solved
+inputs\medium-238.in did not give valid solution so trivially solved
+inputs\medium-239.in did not give valid solution so trivially solved
+inputs\medium-24.in did not give valid solution so trivially solved
+inputs\medium-240.in did not give valid solution so trivially solved
+inputs\medium-242.in did not give valid solution so trivially solved
+inputs\medium-25.in did not give valid solution so trivially solved
+inputs\medium-26.in did not give valid solution so trivially solved
+inputs\medium-27.in did not give valid solution so trivially solved
+inputs\medium-28.in did not give valid solution so trivially solved
+inputs\medium-29.in did not give valid solution so trivially solved
+inputs\medium-3.in did not give valid solution so trivially solved
+inputs\medium-30.in did not give valid solution so trivially solved
+inputs\medium-31.in did not give valid solution so trivially solved
+inputs\medium-32.in did not give valid solution so trivially solved
+inputs\medium-34.in did not give valid solution so trivially solved
+inputs\medium-35.in did not give valid solution so trivially solved
+inputs\medium-36.in did not give valid solution so trivially solved
+inputs\medium-37.in did not give valid solution so trivially solved
+inputs\medium-38.in did not give valid solution so trivially solved
+inputs\medium-39.in did not give valid solution so trivially solved
+inputs\medium-4.in did not give valid solution so trivially solved
+inputs\medium-40.in did not give valid solution so trivially solved
+inputs\medium-41.in did not give valid solution so trivially solved
+inputs\medium-42.in did not give valid solution so trivially solved
+inputs\medium-43.in did not give valid solution so trivially solved
+inputs\medium-44.in did not give valid solution so trivially solved
+inputs\medium-45.in did not give valid solution so trivially solved
+inputs\medium-46.in did not give valid solution so trivially solved
+inputs\medium-47.in did not give valid solution so trivially solved
+inputs\medium-48.in did not give valid solution so trivially solved
+inputs\medium-49.in did not give valid solution so trivially solved
+inputs\medium-5.in did not give valid solution so trivially solved
+inputs\medium-50.in did not give valid solution so trivially solved
+inputs\medium-51.in did not give valid solution so trivially solved
+inputs\medium-54.in did not give valid solution so trivially solved
+inputs\medium-57.in did not give valid solution so trivially solved
+inputs\medium-58.in did not give valid solution so trivially solved
+inputs\medium-59.in did not give valid solution so trivially solved
+inputs\medium-6.in did not give valid solution so trivially solved
+inputs\medium-60.in did not give valid solution so trivially solved
+inputs\medium-61.in did not give valid solution so trivially solved
+inputs\medium-62.in did not give valid solution so trivially solved
+inputs\medium-63.in did not give valid solution so trivially solved
+inputs\medium-64.in did not give valid solution so trivially solved
+inputs\medium-65.in did not give valid solution so trivially solved
+inputs\medium-66.in did not give valid solution so trivially solved
+inputs\medium-67.in did not give valid solution so trivially solved
+inputs\medium-68.in did not give valid solution so trivially solved
+inputs\medium-69.in did not give valid solution so trivially solved
+inputs\medium-7.in did not give valid solution so trivially solved
+inputs\medium-70.in did not give valid solution so trivially solved
+inputs\medium-71.in did not give valid solution so trivially solved
+inputs\medium-72.in did not give valid solution so trivially solved
+inputs\medium-74.in did not give valid solution so trivially solved
+inputs\medium-75.in did not give valid solution so trivially solved
+inputs\medium-76.in did not give valid solution so trivially solved
+inputs\medium-78.in did not give valid solution so trivially solved
+inputs\medium-79.in did not give valid solution so trivially solved
+inputs\medium-8.in did not give valid solution so trivially solved
+inputs\medium-80.in did not give valid solution so trivially solved
+inputs\medium-81.in did not give valid solution so trivially solved
+inputs\medium-82.in did not give valid solution so trivially solved
+inputs\medium-83.in did not give valid solution so trivially solved
+inputs\medium-84.in did not give valid solution so trivially solved
+inputs\medium-85.in did not give valid solution so trivially solved
+inputs\medium-86.in did not give valid solution so trivially solved
+inputs\medium-87.in did not give valid solution so trivially solved
+inputs\medium-88.in did not give valid solution so trivially solved
+inputs\medium-89.in did not give valid solution so trivially solved
+inputs\medium-90.in did not give valid solution so trivially solved
+inputs\medium-91.in did not give valid solution so trivially solved
+inputs\medium-92.in did not give valid solution so trivially solved
+inputs\medium-93.in did not give valid solution so trivially solved
+inputs\medium-94.in did not give valid solution so trivially solved
+inputs\medium-95.in did not give valid solution so trivially solved
+inputs\medium-96.in did not give valid solution so trivially solved
+inputs\medium-97.in did not give valid solution so trivially solved
+inputs\medium-98.in did not give valid solution so trivially solved
+inputs\medium-99.in did not give valid solution so trivially solved
+**skipped coz exists:**
+naivekstudentsrandomtesting3/large-117.out
+naivekstudentsrandomtesting3/large-144.out
+naivekstudentsrandomtesting3/large-151.out
+naivekstudentsrandomtesting3/large-160.out
+naivekstudentsrandomtesting3/large-171.out
+naivekstudentsrandomtesting3/large-173.out
+naivekstudentsrandomtesting3/large-178.out
+naivekstudentsrandomtesting3/large-187.out
+naivekstudentsrandomtesting3/large-201.out
+naivekstudentsrandomtesting3/large-202.out
+naivekstudentsrandomtesting3/large-207.out
+naivekstudentsrandomtesting3/large-213.out
+naivekstudentsrandomtesting3/large-33.out
+naivekstudentsrandomtesting3/large-48.out
+naivekstudentsrandomtesting3/large-54.out
+naivekstudentsrandomtesting3/large-56.out
+naivekstudentsrandomtesting3/large-7.out
+naivekstudentsrandomtesting3/large-72.out
+naivekstudentsrandomtesting3/large-73.out
+naivekstudentsrandomtesting3/large-77.out
+naivekstudentsrandomtesting3/large-80.out
+naivekstudentsrandomtesting3/large-81.out
+naivekstudentsrandomtesting3/large-9.out
+naivekstudentsrandomtesting3/large-91.out
+naivekstudentsrandomtesting3/medium-160.out
+naivekstudentsrandomtesting3/medium-178.out
+naivekstudentsrandomtesting3/medium-187.out
+naivekstudentsrandomtesting3/medium-213.out
+naivekstudentsrandomtesting3/medium-217.out
+naivekstudentsrandomtesting3/medium-218.out
+naivekstudentsrandomtesting3/medium-227.out
+naivekstudentsrandomtesting3/medium-241.out
+naivekstudentsrandomtesting3/medium-33.out
+naivekstudentsrandomtesting3/medium-52.out
+naivekstudentsrandomtesting3/medium-53.out
+naivekstudentsrandomtesting3/medium-55.out
+naivekstudentsrandomtesting3/medium-56.out
+naivekstudentsrandomtesting3/medium-73.out
+naivekstudentsrandomtesting3/medium-77.out
+naivekstudentsrandomtesting3/medium-9.out
+**total solved in this iteration**0
+**trivially solved in this iteration**436
+**total skipped coz exists in this iteration**40
+>>>>>>> 191aeeaefd9cd05ab2cf5f22b00b4688a4e642a0

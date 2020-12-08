@@ -135,7 +135,7 @@ def solve(G, s, h = 0):
             return 0, 0
     return 0, 0
 
-def solverNotOptimal(G, s):
+def solverNotOptimalestimator(G, s):
     numnodes = G.number_of_nodes()
     valid = False
     minstress = minimumstress(G)[2]['stress']
@@ -185,6 +185,192 @@ def solverNotOptimal(G, s):
 
 def expectedstressinroom(student, partner, roomsmapping, G):
     return sum([G[x][partner]["stress"] for x in roomsmapping if roomsmapping[x] == roomsmapping[student]]) + sum([G[partner][x]["stress"] for x in roomsmapping if roomsmapping[x] == roomsmapping[student]])
+    estimatedrooms = numnodes/2
+    sperroom = s/estimatedrooms
+    pendingstudents = list(G.nodes())
+    curroom = 0
+    roomsmapping = {}
+    while pendingstudents:
+        student = pendingstudents[0]
+        roomsmapping[student] = curroom
+        curroom += 1
+        pendingstudents.remove(student)
+        print(student)
+        print(pendingstudents)
+        potentialpartners = [partner for partner in pendingstudents if G[student][partner]["stress"] <= sperroom]
+        if potentialpartners:
+            partner = max(potentialpartners, key = lambda x: G[student][x]["happiness"])
+            roomsmapping[partner] = roomsmapping[student]
+            pendingstudents.remove(partner)
+    rooms = len(set(roomsmapping.values()))
+    valid = is_valid_solution(roomsmapping, G, s, rooms)
+    print("ROOMS:", rooms)
+    print("budget: ", s)
+    print("Valid:", valid)
+    print(roomsmapping)
+    if valid:
+        print("VALIDDDDD")
+        return roomsmapping, rooms
+    else:
+        print("INVALID: Could not find appropriate matching")
+        return 0, 0
+
+def solverNotOptimal3students(G, s):
+    numnodes = G.number_of_nodes()
+    valid = False
+    estimatedrooms = int(numnodes/3)
+    sperroom = s/estimatedrooms
+    pendingstudents = list(G.nodes())
+    curroom = 0
+    roomsmapping = {}
+    while pendingstudents:
+        student = pendingstudents[0]
+        roomsmapping[student] = curroom
+        curroom += 1
+        pendingstudents.remove(student)
+        print(student)
+        print(pendingstudents)
+        potentialpartners = [partner for partner in pendingstudents if G[student][partner]["stress"] <= sperroom]
+        if potentialpartners:
+            partner = max(potentialpartners, key = lambda x: G[student][x]["happiness"])
+            roomsmapping[partner] = roomsmapping[student]
+            stressleft = sperroom - G[student][partner]["stress"]
+            pendingstudents.remove(partner)
+            potentialpartners2 = [partner2 for partner2 in pendingstudents if G[student][partner2]["stress"] + G[partner][partner2]["stress"] <= stressleft]
+            if potentialpartners2 and stressleft:
+                partner2 = max(potentialpartners2, key = lambda x: G[student][x]["happiness"] + G[partner][x]["happiness"])
+                roomsmapping[partner2] = roomsmapping[student]
+                pendingstudents.remove(partner2)
+    rooms = len(set(roomsmapping.values()))
+    valid = is_valid_solution(roomsmapping, G, s, rooms)
+    print("ROOMS:", rooms)
+    print("budget: ", s)
+    print("Valid:", valid)
+    print(roomsmapping)
+    if valid:
+        print("VALIDDDDD")
+        return roomsmapping, rooms
+    else:
+        print("INVALID: Could not find appropriate matching")
+        return 0, 0
+
+def solverNotOptimal4students(G, s):
+    numnodes = G.number_of_nodes()
+    valid = False
+    estimatedstudentsperroom = 5
+    estimatedrooms = int(numnodes/estimatedstudentsperroom)
+    sperroom = s/estimatedrooms
+    pendingstudents = list(G.nodes())
+    curroom = 0
+    roomsmapping = {}
+    while pendingstudents:
+        student = pendingstudents[0]
+        roomsmapping[student] = curroom
+        curroom += 1
+        pendingstudents.remove(student)
+        print(student)
+        print(pendingstudents)
+        potentialpartners = [partner for partner in pendingstudents if G[student][partner]["stress"] <= sperroom]
+        if potentialpartners:
+            partner = max(potentialpartners, key = lambda x: G[student][x]["happiness"])
+            roomsmapping[partner] = roomsmapping[student]
+            pendingstudents.remove(partner)
+            stressleft = sperroom - G[student][partner]["stress"]
+            potentialpartners2 = [partner2 for partner2 in pendingstudents if G[student][partner2]["stress"] + G[partner][partner2]["stress"] <= stressleft]
+            if potentialpartners2 and stressleft:
+                partner2 = max(potentialpartners2, key = lambda x: G[student][x]["happiness"] + G[partner][x]["happiness"])
+                roomsmapping[partner2] = roomsmapping[student]
+                pendingstudents.remove(partner2)
+                stressleft = stressleft - (G[student][partner2]["stress"] + G[partner][partner2]["stress"])
+                potentialpartners3 = [partner3 for partner3 in pendingstudents if stress4(G, student, partner, partner2, partner3) <= sperroom]
+                if potentialpartners3 and stressleft:
+                    partner3 = max(potentialpartners3, key = lambda x: happiness4(G, student, partner, partner2, x))
+                    roomsmapping[partner3] = roomsmapping[student]
+                    pendingstudents.remove(partner3)
+                    stressleft = stressleft - stress4(G, student, partner, partner2, partner3)
+                    potentialpartners4 = [partner4 for partner4 in pendingstudents if stress5(G, student, partner, partner2, partner3, partner4) <= sperroom]
+                    if potentialpartners4 and stressleft:
+                        partner4 = max(potentialpartners4, key = lambda x: happiness5(G, student, partner, partner2, partner3, x))
+                        roomsmapping[partner4] = roomsmapping[student]
+                        pendingstudents.remove(partner4)
+                    
+    rooms = len(set(roomsmapping.values()))
+    valid = is_valid_solution(roomsmapping, G, s, rooms)
+    print("ROOMS:", rooms)
+    print("budget: ", s)
+    print("Valid:", valid)
+    print(roomsmapping)
+    if valid:
+        print("VALIDDDDD")
+        return roomsmapping, rooms
+    else:
+        print("INVALID: Could not find appropriate matching")
+        return 0, 0
+
+def solverNotOptimalkstudents(G, s, k):
+    numnodes = G.number_of_nodes()
+    valid = False
+    estimatedstudentsperroom = k
+    estimatedrooms = int(numnodes/estimatedstudentsperroom)
+    sperroom = s/estimatedrooms
+    pendingstudents = list(G.nodes())
+    curroom = 0
+    roomsmapping = {}
+    while pendingstudents:
+        student = pendingstudents[0]
+        roomsmapping[student] = curroom
+        curroom += 1
+        pendingstudents.remove(student)
+        print(student)
+        print(pendingstudents)
+        thisroom = [student]
+        for i in range(k):
+            potentialpartners = [partner for partner in pendingstudents if calculate_stress_for_room(thisroom + [partner], G) <= sperroom]
+            if potentialpartners:
+                partner = max(potentialpartners, key = lambda x: calculate_happiness_for_room(thisroom + [x], G))
+                roomsmapping[partner] = roomsmapping[student]
+                pendingstudents.remove(partner)
+            else:
+                break
+        
+                    
+    rooms = len(set(roomsmapping.values()))
+    valid = is_valid_solution(roomsmapping, G, s, rooms)
+    print("ROOMS:", rooms)
+    print("budget: ", s)
+    print("Valid:", valid)
+    print(roomsmapping)
+    if valid:
+        print("VALIDDDDD")
+        return roomsmapping, rooms
+    else:
+        print("INVALID: Could not find appropriate matching")
+        return 0, 0
+
+def stress4(G, s0, s1, s2, s3):
+    s = [s0,s1,s2,s3]
+    s.sort()
+    #print("stress", s)
+    return G[s[0]][s[1]]["stress"] + G[s[0]][s[2]]["stress"] + G[s[0]][s[3]]["stress"] + G[s[1]][s[2]]["stress"] + G[s[1]][s[3]]["stress"] + G[s[2]][s[3]]["stress"] 
+
+def happiness4(G, s0, s1, s2, s3):
+    s = [s0,s1,s2,s3]
+    s.sort()
+    #print("happiness", s)
+    return G[s[0]][s[1]]["happiness"] + G[s[0]][s[2]]["happiness"] + G[s[0]][s[3]]["happiness"] + G[s[1]][s[2]]["happiness"] + G[s[1]][s[3]]["happiness"] + G[s[2]][s[3]]["happiness"] 
+    
+def stress5(G, s0, s1, s2, s3, s4):
+    s = [s0,s1,s2,s3,s4]
+    s.sort()
+    #print("stress", s)
+    return G[s[0]][s[1]]["stress"] + G[s[0]][s[2]]["stress"] + G[s[0]][s[3]]["stress"] + G[s[0]][s[4]]["stress"] + G[s[1]][s[2]]["stress"] + G[s[1]][s[3]]["stress"] + G[s[1]][s[4]]["stress"] + G[s[2]][s[3]]["stress"] + G[s[2]][s[4]]["stress"] + G[s[3]][s[4]]["stress"]  
+
+def happiness5(G, s0, s1, s2, s3, s4):
+    s = [s0,s1,s2,s3,s4]
+    s.sort()
+    #print("happiness", s)
+    return G[s[0]][s[1]]["happiness"] + G[s[0]][s[2]]["happiness"] + G[s[0]][s[3]]["happiness"] + G[s[0]][s[4]]["happiness"] + G[s[1]][s[2]]["happiness"] + G[s[1]][s[3]]["happiness"] + G[s[1]][s[4]]["happiness"] + G[s[2]][s[3]]["happiness"] + G[s[2]][s[4]]["happiness"] + G[s[3]][s[4]]["happiness"]  
+
 def trivialSolver(G, s):
     roomsmapping = {}
     for student in list(G.nodes()):
@@ -271,8 +457,8 @@ if __name__ == '__main__':
         skippedcozexists = []
         inputs = glob.glob('inputs/*')
         for input_path in inputs:
-            if "small" in input_path:
-                output_path = 'amogh2/' + basename(normpath(input_path))[:-3] + '.out'
+            if "medium" in input_path or "large" in input_path:
+                output_path = 'naivekstudentsrandomtesting3/' + basename(normpath(input_path))[:-3] + '.out'
                 if os.path.isfile(output_path):
                     ctr += 1
                     print("skipping", output_path, "because it already exists")
@@ -283,7 +469,8 @@ if __name__ == '__main__':
                     print("now attempting", input_path)
                     G, s = read_input_file(input_path)
                     try:
-                        D, k = solve(G, s)
+                        #D, k = solverNotOptimal4students(G, s)
+                        D, k = solverNotOptimalkstudents(G, s, 12)
                         if D or k:
                             assert is_valid_solution(D, G, s, k)
                             ctr += 1
@@ -291,18 +478,18 @@ if __name__ == '__main__':
                             write_output_file(D, output_path)
                             happinessdict[input_path] = happiness
                         else:
-                            #D, k = trivialSolver(G, s)
-                            #assert is_valid_solution(D, G, s, k)
-                            #write_output_file(D, output_path)
+                            # D, k = trivialSolver(G, s)
+                            # assert is_valid_solution(D, G, s, k)
+                            # write_output_file(D, output_path)
                             unsolveddict[input_path] = "did not give valid solution so trivially solved"
                             unsolvedctr += 1
                         print("solved list", happinessdict)
                         print("unsolved list", unsolveddict)
                         writeupdate(happinessdict, unsolveddict, skippedcozexists)
                     except Exception:
-                        D, k = trivialSolver(G, s)
-                        assert is_valid_solution(D, G, s, k)
-                        write_output_file(D, output_path)
+                        # D, k = trivialSolver(G, s)
+                        # assert is_valid_solution(D, G, s, k)
+                        # write_output_file(D, output_path)
                         unsolveddict[input_path] = "gave error so trivially solved"
                         unsolvedctr += 1
                         writeupdate(happinessdict, unsolveddict, skippedcozexists)
